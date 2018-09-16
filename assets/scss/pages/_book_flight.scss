@@ -1,0 +1,167 @@
+/*-----------------------
+    Book Flight
+------------------------*/
+
+.popular-destinations-area {
+    &.book-flight {
+        .popular-destinations-top {
+            background-color: #f2f2f2;
+            .section-title {
+                p {
+                    color: #7c7c90;
+                }
+            }
+        }
+        .popular-destination-bottom {
+            background-color: #f2f2f2;
+            padding-bottom: 120px;
+        }
+    }
+}
+
+.book-flight-page-content {
+    padding: 120px 0 105px 0;
+    .hotel-tab-content-inner{
+        .flight-tab-content-inner{
+            .top-area-content{
+                .left-content-area{
+                    .hotel-title{
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .flight-tab-menu-wrapper {
+        .nav-tabs {
+            border-bottom: none;
+            .nav-item {
+                .nav-link {
+                    &.active {
+                        background-color: $base-color;
+                        color: $white;
+                        border-bottom-color: $base-color;
+                    }
+                    &:hover {
+                        background-color: $base-color;
+                        color: $white;
+                        border-bottom-color: $base-color;
+                    }
+                    border: none;
+                    height: 60;
+                    width: 130px;
+                    line-height: 60px;
+                    padding: 0;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #93939f;
+                    border-bottom: 2px solid #dedede;
+                }
+            }
+        }
+    }
+    .flight-tab-content-wrapper {
+        padding: 30px 0 25px 0;
+        .tab-content {
+            .flight-tab-content-inner {
+                .left-content-area {
+                    display: inline-block;
+                    .checkbox-element {
+                        margin-right: 38px;
+                    }
+                }
+                .right-content-area {
+                    display: inline-block;
+                    float: right;
+                    .title {
+                        color: #585869;
+                        font-size: 14px;
+                        line-height: 24px;
+                        @include transition($transition);
+                        &:hover {
+                            color: $base-color;
+                        }
+                    }
+                }
+            }
+            .flight-search-area {
+                ul {
+                    text-align: center;
+                    font-size: 0;
+                    li {
+                        display: inline-block;
+                        width: 12.5%;
+                        font-size: 14px;
+                        line-height: 24px;
+                        .form-element {
+                            .label {
+                                text-align: left;
+                                display: block;
+                                padding-left: 30px;
+                            }
+                            .has-icon{
+                                .the-icon{
+                                    color: $base-color;
+                                }
+                            }
+                            .input-field {
+                                border-radius: 0;
+                                &.borderd {
+                                    border-left: none;
+                                }
+                            }
+                        }
+                        &.width-25per {
+                            width: 25%;
+                        }
+                        &:first-child {
+                            width: 25%;
+                            .form-element {
+                                .label {
+                                    padding-left: 0;
+                                }
+                                .input-field {
+                                    border-radius: 0;
+                                    &.borderd {
+                                        border-left: 2px solid rgba(0, 0, 0, .10);
+                                    }
+                                }
+                            }
+                        }
+                        &:last-child {
+                            width: 25%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.width-25per {
+    width: 25%;
+}
+
+.width-12per {
+    width: 12.5%;
+}
+
+input.input-field.borderd.datepicker {
+    margin-top: -1px;
+}
+
+.flight-area-bottom {
+    .flight-tab-content-inner {
+        .top-area-content {
+            margin-top: 25px;
+            .left-content-area {
+                padding-top: 15px;
+            }
+        }
+    }
+}
+.padding-top-1{
+    padding-top: 1px;
+}

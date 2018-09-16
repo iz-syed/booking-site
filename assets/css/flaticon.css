@@ -1,0 +1,73 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 20/05/2018 13:08
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.flaticon-earth-globe:before { content: "\f100"; }
+.flaticon-edit:before { content: "\f101"; }
+.flaticon-reply-all-button:before { content: "\f102"; }
+.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f103"; }
+.flaticon-phone-call:before { content: "\f104"; }
+.flaticon-arrows:before { content: "\f105"; }
+.flaticon-car-compact:before { content: "\f106"; }
+.flaticon-sleeping-bed-silhouette:before { content: "\f107"; }
+.flaticon-plane-1:before { content: "\f108"; }
+.flaticon-music-player-play:before { content: "\f109"; }
+.flaticon-layers-1:before { content: "\f10a"; }
+.flaticon-layers:before { content: "\f10b"; }
+.flaticon-star-1:before { content: "\f10c"; }
+.flaticon-back:before { content: "\f10d"; }
+.flaticon-next:before { content: "\f10e"; }
+.flaticon-left-quote:before { content: "\f10f"; }
+.flaticon-play-button:before { content: "\f110"; }
+.flaticon-speech-bubbles-comment-option:before { content: "\f111"; }
+.flaticon-user-silhouette:before { content: "\f112"; }
+.flaticon-calendar:before { content: "\f113"; }
+.flaticon-diamond:before { content: "\f114"; }
+.flaticon-customer:before { content: "\f115"; }
+.flaticon-lemon:before { content: "\f116"; }
+.flaticon-paper-plane:before { content: "\f117"; }
+.flaticon-star:before { content: "\f118"; }
+.flaticon-tick:before { content: "\f119"; }
+.flaticon-skydiving-1:before { content: "\f11a"; }
+.flaticon-ticket:before { content: "\f11b"; }
+.flaticon-plane:before { content: "\f11c"; }
+.flaticon-airplane-1:before { content: "\f11d"; }
+.flaticon-skydiving:before { content: "\f11e"; }
+.flaticon-helicopter:before { content: "\f11f"; }
+.flaticon-transport-1:before { content: "\f120"; }
+.flaticon-transport:before { content: "\f121"; }
+.flaticon-airplane:before { content: "\f122"; }
+.flaticon-aeroplane:before { content: "\f123"; }
+.flaticon-clock:before { content: "\f124"; }
+.flaticon-close-envelope:before { content: "\f125"; }
+.flaticon-check-sign-in-a-rounded-black-square:before { content: "\f126"; }
+.flaticon-youtube:before { content: "\f127"; }
+.flaticon-google-plus:before { content: "\f128"; }
+.flaticon-facebook-logo:before { content: "\f129"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f12a"; }

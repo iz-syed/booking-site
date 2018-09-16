@@ -1,0 +1,13 @@
+/*--------------------
+    Blog Page
+--------------------*/
+
+.news-feed-area {
+    &.blog-page {
+        padding-top: 120px;
+        padding-bottom: 80px;
+        .single-new-feed-items {
+            margin-bottom: 30px;
+        }
+    }
+}

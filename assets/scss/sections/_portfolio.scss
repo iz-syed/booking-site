@@ -1,0 +1,74 @@
+/*----------------------
+    Portfolio
+----------------------*/
+
+.portfolio-area {
+    padding: 118px 0 120px 0;
+    .section-title {
+        h2 {
+            color: #151525;
+            margin-bottom: 13px;
+            margin-top: 0;
+        }
+        p {
+            color: #7c7c90;
+        }
+    }
+    .portfolio-menu-wrapper {
+        margin-bottom: 30px;
+        ul {
+            font-size: 0;
+            display: inline-block;
+            li {
+                display: inline-block;
+                font-size: 14px;
+                width: 115px;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                font-weight: 700;
+                color: #7c7c90;
+                font-family: $heading-font; 
+                // border-bottom: 2px solid #e0e0e0;
+                cursor: pointer;
+                position: relative;
+                z-index: 9;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background-color: #e0e0e0;
+                    z-index: 0;
+                }
+                &.active {
+                    background-color: $base-color;
+                    border-radius: 25px;
+                    border-color: transparent;
+                    color: $white;
+                    &:after {
+                        z-index: -2;
+                    }
+                }
+            }
+        }
+    }
+    .portfolio-content-wrapper {
+        .single-portfolio-wrapper {
+            float: left;
+            &:nth-child(2) {
+                padding-left: 30px;
+            }
+            &:nth-child(3) {
+                padding-left: 30px;
+                padding-top: 30px;
+            }
+            &:nth-child(4) {
+                padding-left: 15px;
+                padding-top: 30px;
+            }
+        }
+    }
+}

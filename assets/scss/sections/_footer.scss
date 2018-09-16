@@ -1,0 +1,14 @@
+/*---------------------
+    Footer Area
+---------------------*/
+
+.footer-area {
+    background-color: $secondary-color;
+    .copyright-area {
+        display: block;
+        text-align: center;
+        padding: 25px 0;
+        color: #b5b5c1;
+        font-size: 14px;
+    }
+}

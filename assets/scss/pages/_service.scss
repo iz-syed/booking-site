@@ -1,0 +1,154 @@
+/*----------------------
+    Services Pages
+-----------------------*/
+
+.service-page {
+    padding: 120px 0 102px 0;
+    .single-services-box-2 {
+        text-align: center;
+        &:hover {
+            .icon {
+                background-color: $base-color;
+                color: $white;
+            }
+            .content {
+                .title {
+                    color: $base-color;
+                }
+            }
+        }
+        .icon {
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-size: 30px;
+            border: 2px solid rgba(0, 0, 0, 0.10);
+            border-radius: 50%;
+            color: $base-color;
+            margin: 0 auto;
+            margin-bottom: 27px;
+            @include transition($transition);
+        }
+        .content {
+            .title {
+                font-size: 26px;
+                line-height: 36px;
+                font-weight: 700;
+                color: #151525;
+                margin-bottom: 17px;
+                @include transition($transition);
+            }
+            p {
+                color: #7c7c90;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+.mission-vission-area {
+    background-color: #151525;
+    padding: 113px 0 90px 0;
+    .right-conent-area {
+        padding: 0 15px;
+        h3 {
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 25px;
+        }
+        p {
+            color: #b1b1c1;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .btn-wrapper {
+            margin-top: 35px;
+            .boxed-btn {
+                width: 190px;
+                height: 52px;
+                line-height: 50px;
+                margin: 0 10px;
+                border: 2px solid transparent;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:hover {
+                    background-color: transparent;
+                    border-color: $base-color;
+                }
+                &.blank {
+                    width: 250px;
+                    color: #8c8d9b;
+                    border-color: rgba(255, 255, 255, .10);
+                    &:hover {
+                        color: $white;
+                        border-color: $base-color;
+                        background-color: $base-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.progressbar {
+    height: 350px;
+    width: 75px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    position: relative;
+    background-color: #f4f4f4;
+    border-radius: 30px;
+}
+
+.proggress {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $base-color;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.percentCount {
+    float: right;
+    font-size: 18px;
+    color: $base-color;
+    margin-top: -42px;
+    clear: both;
+    display: none;
+}
+
+.vertical-progress-inner {
+    ul {
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+            .flybuzz-progressbar {
+                position: relative;
+                display: inline-block;
+                border-radius: 30px;
+                .progress-name {
+                    position: absolute;
+                    color: $white;
+                    font-size: 14px;
+                    font-family: $heading-font;
+                    font-weight: 700;
+                    writing-mode: tb-rl;
+                    left: 50%;
+                    bottom: 55px;
+                    @include transform(translateX(-50%)rotate(180deg));
+                }
+            }
+        }
+    }
+}

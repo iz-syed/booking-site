@@ -1,0 +1,58 @@
+/*--------------------
+    Pricing Plans
+---------------------*/
+
+.pricing-plan-area {
+    padding: 115px 0 100px 0;
+    .section-title {
+        p {
+            color: #7c7c90;
+        }
+    }
+    .single-wide-plans {
+        padding: 40px 60px 42px 60px;
+        border: 2px solid rgba(0, 0, 0, .10);
+        border-radius: 5px;
+        margin-bottom: 20px;
+        .header {
+            .price {
+                font-size: 14px;
+                line-height: 34px;
+                color: #d02128;
+                display: block;
+            }
+            .title {
+                font-size: 40px;
+                line-height: 50px;
+                font-weight: 700;
+            }
+        }
+        .rules {
+            ul {
+                display: block;
+                li {
+                    font-size: 14px;
+                    color: #7c7c90;
+                    line-height: 30px;
+                    i {
+                        color: #00cf92;
+                        padding-right: 5px;
+                    }
+                }
+            }
+        }
+        .btn-wrapper {
+            padding-top: 30px;
+            .boxed-btn {
+                background-color: transparent;
+                border: 2px solid rgba(0, 0, 0, .10);
+                color: #7c7c90;
+                &:hover{
+                    background-color: $base-color;
+                    border-color: $base-color;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

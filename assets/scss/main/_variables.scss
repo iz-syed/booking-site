@@ -1,0 +1,155 @@
+/*------------------------
+	Css Indexing
+--------------------------
+** @typography
+--------------------------
+** Global css
+--------------------------
+** Breadcumb Area
+--------------------------
+** Preloader
+--------------------------
+** Normalize
+--------------------------
+** Navbar Area
+--------------------------
+** Header Area
+--------------------------
+** Top bar
+--------------------------
+** Support Bar
+--------------------------
+** About Us Area
+--------------------------
+** Why choose us
+--------------------------
+** Portfolio
+--------------------------
+** Service
+--------------------------
+** Pricing Plans
+--------------------------
+** Team Member
+--------------------------
+** Testimonial Area
+--------------------------
+** Fun Fact Area
+--------------------------
+** News Feed
+--------------------------
+** Brands logo
+--------------------------
+** Sidebar
+--------------------------
+** Footer Area
+--------------------------
+** About Page
+--------------------------
+** Services Pages
+--------------------------
+** Pricing Page
+--------------------------
+** Destinations
+--------------------------
+** Crews Page
+--------------------------
+** Airlines Page
+--------------------------
+** Flight Schedule
+--------------------------
+** Book Flight
+--------------------------
+** Contact Page
+--------------------------
+** Blog Page
+--------------------------
+** Blog Details Page
+--------------------------
+** Profile Page
+--------------------------
+
+*/
+
+//== Template Main Color
+$base-color: #d02027;
+$secondary-color: #151525;
+$bg-color:#f7f7f7;
+$white: #fff;
+//== heading color
+$heading-color: #151525;
+$descr-color: #7d7c8f;
+/*-----------------
+    @Typography
+-----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Open+Sans:300,400,600,700,800');
+$body-font:'Open Sans',
+sans-serif;
+$heading-font:'Merriweather',
+serif;
+//== font sizes
+$base-font-size: 14px !default;
+$font-size-h1: 60px !default;
+$font-size-h2: 52px !default;
+$font-size-h3: 26px !default;
+$font-size-h4: 22px !default;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height: 1.6 !default; // 24/15
+// border-radius
+$border-radius-5: 5px !default;
+$border-radius-25: 25px !default;
+$border-radius-3: 3px !default;
+$border-radius-circle: 50% !default;
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;
+
+$gradient-1: #FF6A4C;
+$gradient-2: #D42186;
+
+$gradient-3: #15d8f8;
+$gradient-4: #09afee;
+
+$black-color: #121212;
+$black-color-light: #999;
+
+.navbar-area {background: linear-gradient(165deg,$gradient-3 20%,$gradient-4 60%);}
+
+
+
+
+// 
+
+.custom-control-label::before {
+	top:1rem
+}
+
+.custom-radio {
+	display: inline-block;
+	padding-right: 1.5em;
+	padding-left: 0.5em;
+}
+
+.fitter input {
+}
+
+.fitter {
+  position:relative;
+
+  input {
+	  padding-top:25px;
+	  padding-left:15px;
+  }
+
+  &:before {
+
+	content:attr(data-value);
+	position:absolute;
+	width:100%;
+	left:55px;
+	top:5px;
+	font-weight:bold;
+	z-index:9;
+  }
+
+}

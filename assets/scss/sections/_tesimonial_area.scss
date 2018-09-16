@@ -1,0 +1,82 @@
+/*----------------------
+    Testimonial Area
+-----------------------*/
+
+.testimonial-area {
+    padding: 115px 0 120px 0;
+    .subscribe-form-wrapper {
+        padding: 0 15px;
+    }
+}
+
+.testimonial-wrapper {
+    .single-testimonial-item {
+        padding: 0 15px;
+        padding-top: 05px;
+        .descripton {
+            padding: 37px 40px 20px 40px;
+            border: 2px solid rgba(0, 0, 0, 0.10);
+            border-radius: 5px;
+            position: relative;
+            margin-bottom: 30px;
+            color: #7c7c90;
+            &:after {
+                position: absolute;
+                bottom: -14px;
+                left: 70px;
+                width: 26px;
+                height: 26px;
+                background-color: $white;
+                border: 2px solid rgba(0, 0, 0, 0.10);
+                border-top: 0;
+                border-left: 0;
+                content: '';
+                @include transform(rotate(45deg));
+            }
+            .ratigs {
+                margin-bottom: 32px;
+                li {
+                    display: inline-block;
+                    font-size: 14px;
+                    a {
+                        color: #ffae00;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .clients-details {
+            margin-left: 45px;
+            position: relative;
+            .thumb {
+                position: absolute;
+                left: 0px;
+                img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                }
+            }
+            .content {
+                height: 80px;
+                padding-left: 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .title {
+                    color: #151525;
+                    font-size: 18px;
+                    line-height: 20px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+                .post {
+                    font-weight: 700;
+                    line-height: 12px;
+                    font-weight: 12px;
+                    color: $base-color;
+                }
+            }
+        }
+    }
+}

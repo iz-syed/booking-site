@@ -1,0 +1,46 @@
+/*-----------------------
+    Crews Page
+------------------------*/
+
+.crew-page-content-area {
+    padding: 120px 0 120px 0;
+    .single-crew-team-member {
+        text-align: center;
+        border: 2px solid rgba(0, 0, 0, 0.10);
+        padding: 38px 40px 36px 40px;
+        @include transition($transition);
+        &:hover {
+            border-color: $base-color;
+            .content {
+                .title {
+                    color: $base-color;
+                }
+            }
+        }
+        .thumb {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 25px;
+            img {
+                max-width: 160px;
+                max-height: 160px;
+                border-radius: 50%;
+            }
+        }
+        .content {
+            .title {
+                color: #151525;
+                font-size: 26px;
+                line-height: 36px;
+                margin-bottom: 22px;
+                @include transition($transition);
+            }
+            p {
+                margin-bottom: 0;
+                color: #7c7c90;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+}

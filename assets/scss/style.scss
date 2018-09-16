@@ -1,0 +1,170 @@
+//=Main scss
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_global";
+@import "main/_normalize";
+//=Section scss
+@import "sections/_navbar";
+@import "sections/_header";
+@import "sections/_topbar";
+@import "sections/_support";
+@import "sections/_about";
+@import "sections/_why_us";
+@import "sections/_portfolio";
+@import "sections/_service";
+@import "sections/_pricing_plan";
+@import "sections/_team";
+@import "sections/_tesimonial_area";
+@import "sections/_fun_fact";
+@import "sections/_news_feed";
+@import "sections/_brands";
+@import "sections/_sidebar";
+@import "sections/_footer";
+//=Pages scss
+@import "pages/_about";
+@import "pages/_service";
+@import "pages/_pricing";
+@import "pages/_destinations";
+@import "pages/_crews";
+@import "pages/_airlines";
+@import "pages/_flight_schedule";
+@import "pages/book_flight";
+@import "pages/contact";
+@import "pages/blog";
+@import "pages/_blog_details";
+@import "pages/_profile";
+
+@import "_form-element";
+
+.test {
+	border:1px solid red
+}
+
+.top-footer {
+	background-color: #f7f7f7;
+    padding: 34.1796875px 0;
+
+    a {
+		display:block;
+		padding:5px 0;
+		text-align:left;
+    }
+}
+
+.card-box {
+	text-align: center;
+}
+
+.group .detail-tag {
+      background:#f3f0f0;
+      margin:15px 0 35px;
+      padding:10px 15px;
+      font-weight:bold;
+      position:relative;
+      filter: drop-shadow(0 2px 2px #b5b0b0);
+
+      &:before {
+	      content:"";
+	      position:absolute;
+	      bottom:-8px;
+	      width: 0; 
+	      height: 0; 
+	      border-left: 10px solid transparent;
+	      border-right: 10px solid transparent;    
+	      border-top: 10px solid #f3f0f0;
+      }
+
+    }
+
+    
+
+    .c-red {
+        color:#FF6A4C;
+    }
+
+    form label {
+        font-weight:bold;
+        display: inline-block;
+        padding: 10px 3px;
+    }
+
+    textarea.custom {
+    	min-height: 120px;
+    	padding-top: 15px;
+    }
+
+    .payment-wrap {
+
+    	.--fare,
+    	.--cash-in-hand,
+    	.--card {
+			background:#f3f5fb;
+			padding: 15px;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			min-height: 100px;
+			padding-left: 100px;
+			filter: drop-shadow(0 2px 2px transparent);
+			cursor: pointer;
+
+			&:before {
+				content:"";
+				width: 75px;
+			    height: 75px;
+			    background: #fff;
+			    text-align: center;
+			    position: absolute;
+			    left: 15px;
+			    top: 13px;
+			    border-radius: 50%;
+			}
+
+			&:hover {
+				filter: drop-shadow(0 2px 2px #b5b0b0);
+			}
+    	}
+
+    	.--fare {
+			b {
+				font-weight:700;
+				font-size:32px;
+			}
+
+			span {
+				display: block;
+				font-size:18px;
+			}
+
+			&:before {
+				content:attr(data-content);
+				font-weight: bold;
+			    font-size: 32px;
+			    line-height: 70px;
+			}
+    	}
+
+    	.--cash-in-hand {
+			&:before  {
+				background:#fff url(../img/cash-in-hand.png) no-repeat center center;
+				background-size:46px;
+			}
+
+			b {
+				line-height: 75px;
+    			font-size: 22px;
+			}
+    	}
+
+    	.--card {
+    		&:before  {
+				background:#fff url(../img/card.png) no-repeat center center;
+				background-size:46px;
+			}
+			b {
+				line-height: 75px;
+    			font-size: 22px;
+			}
+    	}
+
+    }

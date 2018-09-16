@@ -1,0 +1,51 @@
+/*-----------------------
+    Why choose us
+------------------------*/
+
+.why-us-area {
+    background-color: #151525;
+    padding: 120px 0;
+    .section-title{
+        h2{
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.single-why-us-box {
+    padding: 40px 30px 20px 30px;
+    border: 2px solid rgba(255,255,255,.10);
+    border-radius: 5px;
+    @include transition($transition);
+    &:hover{
+        background-color: $base-color;
+        .icon{
+            color: $white;
+        }
+    }
+    .icon {
+        font-size: 60px;
+        color: $base-color;
+        line-height: 60px;
+        margin-bottom: 27px;
+        @include transition($transition);
+        i {
+            &:before {
+                font-size: 60px;
+            }
+        }
+    }
+    .content {
+        h4 {
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 700;
+            margin-bottom: 22px;
+        }
+        p {
+            color: #b1b1c1;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+}

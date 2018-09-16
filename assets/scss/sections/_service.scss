@@ -1,0 +1,61 @@
+/*---------------------
+    Service 
+----------------------*/
+
+.service-area {
+    .service-area-top {
+        background-color: #151525;
+        padding: 116px 0 120px 0;
+    }
+    .service-area-bottom {
+        .service-bottom-inner {
+            background-color: $white;
+            margin-top: -120px;
+            border-radius: 5px;
+            box-shadow: 0 8px 30px 0px rgba(0, 0, 0, 0.10);
+            padding: 60px 50px 10px 50px;
+            .single-service-box {
+                position: relative;
+                margin-bottom: 42px;
+                &:hover{
+                    .content{
+                        h4{
+                            color: $base-color;
+                        }
+                    }
+                }   
+                .icon {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    font-size: 50px;
+                    line-height: 50px;
+                    color: $base-color;
+                    i {
+                        &:before {
+                            font-size: 50px;
+                            line-height: 50px;
+                        }
+                    }
+                }
+                .content {
+                    // padding-left: 70px;
+                    padding-top: 70px;
+                    h4 {
+                        color: #151525;
+                        font-size: 26px;
+                        line-height: 36px;
+                        font-weight: 700;
+                        @include transition($transition);
+                    }
+                    p {
+                        font-size: 14px;
+                        line-height: 26px;
+                        color: #7c7c90;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

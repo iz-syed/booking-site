@@ -1,0 +1,25 @@
+/*-----------------------
+    About Us Area
+-----------------------*/
+
+.about-area {
+    padding: 120px 0 100px 0;
+    .right-content-area {
+        padding-left: 10px;
+        .section-subtitle {
+            margin-bottom: 18px;
+            display: block;
+        }
+        h3 {
+            font-size: 47px;
+            line-height: 58px;
+            color: #151525;
+            margin-bottom: 22px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: #7c7c90;
+        }
+    }
+}

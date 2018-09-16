@@ -1,0 +1,1055 @@
+/*-----------------------------------
+	Responsive Media Quaries
+-------------------------------------
+Medium Layout: 1200px.
+-------------------------------------
+Layout: min-width: 768 and max-width:991
+------------------------------------
+Tablet Layout wide: 768px.
+-----------------------------------
+medium tablet layout 599px
+-----------------------------------
+mobile - layout 414px
+-----------------------------------
+mobile - layout 384px
+---------------------------------
+mobile layout 360px 
+--------------------------------
+mobile layout 320px 
+--------------------------------
+
+*/
+
+
+
+
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 10px;
+        position: relative;
+    }
+    .about-area .right-content-area h3 {
+        font-size: 37px;
+        line-height: 48px;
+    }
+    .single-why-us-box .content h4 {
+        font-size: 16px;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper:nth-child(2) {
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper:nth-child(3) {
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper:nth-child(4) {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .service-area .service-area-bottom .service-bottom-inner .single-service-box .content h4 {
+        font-size: 20px;
+    }
+    .news-feed-area .single-new-feed-items .content .title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .news-feed-area .single-new-feed-items .content .meta-tags ul li {
+        margin: 0 3px;
+    }
+    .about-page-content-area .left-content-area .section-title-inner .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .mission-vission-area .right-conent-area h3 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .mission-vission-area .right-conent-area .btn-wrapper .boxed-btn.blank {
+        width: 190px;
+    }
+    .vertical-progress-inner ul li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .pricing-page-call-to-action .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .profile-page-content .profile-tab-content-wrapper .profile-tab-menu .nav-tabs .nav-item .nav-link {
+        font-size: 12px;
+        padding: 20px 10px;
+    }
+    .crew-page-content-area .single-crew-team-member .content .title {
+        color: #151525;
+        font-size: 23px;
+        line-height: 36px;
+    }
+    .widget-area.latest-post .single-latest-post .media .media-body h5 {
+        font-size: 14px;
+    }
+    .widget-area.latest-post .single-latest-post .media .media-body .meta-time {
+        font-size: 12px;
+    }
+    .widget-area.instagram .instagram-feed li:last-child {
+        margin-top: 10px;
+    }
+    .widget-area.social .social-links li {
+        margin: 0;
+    }
+    .contact-top-area .single-contact-info-box {
+        padding: 40px 20px 38px 20px;
+    }
+    .contact-top-area .single-contact-info-box .content .title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .news-feed-area .single-new-feed-items.mobile-border-top {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding-top: 30px;
+    }
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 85px;
+        background: #151525;
+        z-index: 9;
+        right: 14%;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .dropdown-item {
+        background: #151525;
+        color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .support-bar-area .logo {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .support-bar-area .support-bar-content {
+        text-align: center;
+    }
+    .about-area .right-content-area {
+        margin-top: 50px;
+    }
+    .single-why-us-box {
+        margin-bottom: 30px;
+    }
+    .why-us-area {
+        padding-bottom: 90px;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper img {
+        display: block;
+        margin: 0 auto;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper:nth-child(2) {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper:nth-child(3) {
+        padding-left: 0;
+    }
+    #portfolio-content-wrapper {
+        left: 12%;
+    }
+    .service-area .service-area-bottom .service-bottom-inner .single-service-box .content h4 {
+        font-size: 23px;
+    }
+    .pricing-plan-area .single-wide-plans {
+        padding: 40px 30px 42px 30px;
+    }
+    .pricing-plan-area .single-wide-plans .btn-wrapper .boxed-btn {
+        width: 95%;
+        font-size: 13px;
+        height: 60px;
+    }
+    .pricing-plan-area .single-wide-plans .header .title {
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 700;
+    }
+    .team-area-bottom .single-team-member .thumb img {
+        width: 100%;
+    }
+    .team-area-bottom .single-team-member {
+        margin-bottom: 30px;
+    }
+    .testimonial-area {
+        padding-top: 85px;
+    }
+    .testimonial-area .section-title-inner .title {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .testimonial-wrapper {
+        margin-bottom: 50px;
+    }
+    .some-fun-fact-area .single-fun-item {
+        margin-bottom: 40px;
+    }
+    .some-fun-fact-area {
+        padding-bottom: 70px;
+    }
+    .news-feed-area .single-new-feed-items .content .title {
+        font-size: 20px;
+    }
+    .single-new-feed-items {
+        margin-top: 40px;
+    }
+    .news-feed-area .section-title {
+        margin-bottom: 37px;
+    }
+    .about-page-content-area .left-content-area {
+        margin-bottom: 40px;
+    }
+    .news-feed-area.resopnsive-991 {
+        padding-top: 75px;
+    }
+    .service-page .single-services-box-2 {
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .service-page {
+        padding-bottom: 72px;
+    }
+    .vertical-progress-inner {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .mission-vission-area {
+        padding-bottom: 120px;
+    }
+    .pricing-page-call-to-action .subtitle {
+        font-size: 25px;
+    }
+    .pricing-page-call-to-action .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .mobile-margin-bottom-30 {
+        margin-bottom: 30px;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li .form-element .input-field.borderd {
+        border-left: 2px solid rgba(0, 0, 0, 0.2);
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:first-child,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:last-child,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li.width-25per,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li {
+        width: 40%;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:nth-child(2) .form-element .input-field.borderd,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:nth-child(4) .form-element .input-field.borderd {
+        border-left: none;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li {
+        margin-bottom: 10px;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-tab-content-inner .right-content-area .boxed-btn {
+        height: 45px;
+        line-height: 46px;
+        color: #fff;
+        width: 100px;
+    }
+    .book-flight-page-content .hotel-tab-content-inner .flight-tab-content-inner .top-area-content .left-content-area {
+        display: block;
+        text-align: center;
+    }
+    .car-tab-bottom-area .right-content-area {
+        display: block !important;
+        text-align: center;
+        float: none !important;
+    }
+    .car-tab-bottom-area .right-content-area .boxed-btn {
+        width: 200px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li .form-element .label {
+        text-align: center;
+    }
+    .medium-desktop-version-center .left-content-area {
+        display: block !important;
+        text-align: center;
+    }
+    .medium-desktop-version-center .right-content-area {
+        float: none !important;
+        display: block !important;
+        text-align: center;
+    }
+    .medium-desktop-version-center .right-content-area .boxed-btn {
+        width: 200px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+        margin-top: 30px;
+    }
+    .book-flight-page-content .flight-tab-menu-wrapper .nav-tabs {
+        border-bottom: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .single-destinations-box.margin-bottom-mobile-30 {
+        margin-bottom: 30px;
+    }
+    .profile-page-content .profile-tab-content-wrapper .profile-tab-menu .nav-tabs .nav-item .nav-link {
+        padding: 20px 12px;
+    }
+    .single-pricing-page-plan {
+        margin-bottom: 50px;
+    }
+    .pricing-plan-page-content {
+        padding-bottom: 98px;
+    }
+    .sidebar {
+        margin-top: 60px;
+    }
+    .widget-area.tags {
+        text-align: center;
+    }
+    .blog-details-content {
+        padding-bottom: 70px;
+    }
+    .contact-top-area .single-contact-info-box {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+    .news-feed-area .single-new-feed-items.mobile-border-top {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding-top: 30px;
+    }
+    .table-responsive {
+        display: block;
+    }
+    .support-bar-area .logo {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .support-bar-area .support-bar-content {
+        display: block;
+        text-align: center;
+    }
+    .support-bar-area .support-bar-content ul li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .support-bar-area .support-bar-content .single-support-item .content .subtitle {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .support-bar-area .support-bar-content .single-support-item .content h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .support-bar-area .support-bar-content .single-support-item .content {
+        padding-left: 20px;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 85px;
+        background: #151525;
+        z-index: 9;
+        right: 14%;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .dropdown-item {
+        background: #151525;
+        color: #fff;
+    }
+    .header-area .single-header-item h1 {
+        font-size: 75px;
+        line-height: 85px;
+    }
+    .portfolio-area .portfolio-menu-wrapper ul li {
+        width: 100px;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper:nth-child(2) {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper:nth-child(3) {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper:nth-child(4) {
+        padding-left: 0;
+    }
+    .pricing-plan-area .single-wide-plans {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .single-why-us-box {
+        margin-bottom: 30px;
+    }
+    .why-us-area {
+        padding-bottom: 100px;
+    }
+    .team-area-bottom .single-team-member {
+        margin-bottom: 30px;
+    }
+    .testimonial-area {
+        padding-top: 100px;
+    }
+    .some-fun-fact-area .single-fun-item {
+        margin-bottom: 30px;
+    }
+    .some-fun-fact-area.fun-fact-bg {
+        padding-bottom: 90px;
+    }
+    .news-feed-area .single-new-feed-items .thumb img {
+        width: 100%;
+    }
+    .news-feed-area .single-new-feed-items {
+        margin-bottom: 30px;
+    }
+    .news-feed-area {
+        padding-bottom: 75px;
+    }
+    .about-page-content-area .right-content-area {
+        padding-top: 50px;
+    }
+    .news-feed-area {
+        padding-top: 85px;
+    }
+    .vertical-progress-inner ul li {
+        margin: 0 10px;
+    }
+    .pricing-page-call-to-action .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .pricing-page-call-to-action .subtitle {
+        font-size: 22px;
+        line-height: 45px;
+        ;
+    }
+    .pricing-page-call-to-action .right-content-area .btn-wrapper {
+        text-align: left;
+    }
+    .popular-destination-bottom .single-destinations-box-2 .thumb img {
+        width: 100%;
+    }
+    .single-destinations-box-2.mobile-margin-bottom-30 {
+        margin-bottom: 30px;
+    }
+    .single-destinations-box.margin-bottom-mobile-30 {
+        margin-bottom: 30px;
+    }
+    .single-destinations-box.mobile-margin-bottom-30 {
+        margin-bottom: 30px;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li .form-element .input-field.borderd {
+        border-left: 2px solid rgba(0, 0, 0, 0.2);
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:first-child,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:last-child,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li.width-25per,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li {
+        width: 40%;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:nth-child(2) .form-element .input-field.borderd,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:nth-child(4) .form-element .input-field.borderd {
+        border-left: none;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li {
+        margin-bottom: 10px;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-tab-content-inner .right-content-area .boxed-btn {
+        height: 45px;
+        line-height: 46px;
+        color: #fff;
+        width: 100px;
+    }
+    .book-flight-page-content .hotel-tab-content-inner .flight-tab-content-inner .top-area-content .left-content-area {
+        display: block;
+        text-align: center;
+    }
+    .car-tab-bottom-area .right-content-area {
+        display: block !important;
+        text-align: center;
+        float: none !important;
+    }
+    .car-tab-bottom-area .right-content-area .boxed-btn {
+        width: 200px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li .form-element .label {
+        text-align: center;
+    }
+    .medium-desktop-version-center .left-content-area {
+        display: block !important;
+        text-align: center;
+    }
+    .medium-desktop-version-center .right-content-area {
+        float: none !important;
+        display: block !important;
+        text-align: center;
+    }
+    .medium-desktop-version-center .right-content-area .boxed-btn {
+        width: 200px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+        margin-top: 30px;
+    }
+    .book-flight-page-content .flight-tab-menu-wrapper .nav-tabs {
+        border-bottom: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-tab-content-inner .left-content-area .checkbox-element {
+        margin-right: 10px;
+    }
+    .destinations-page-content-area .single-destinations-box .thumb img {
+        width: 100%;
+    }
+    .single-destinations-box-2.margin-bottom-mobile-30 {
+        margin-bottom: 30px;
+    }
+    .section-title h2 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+    .single-pricing-page-plan {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .pricing-plan-page-content {
+        padding-bottom: 98px;
+    }
+    .single-crew-team-member.margin-bottom-30 {
+        margin-bottom: 30px;
+    }
+    .some-fun-fact-area .single-fun-item {
+        margin-top: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .sidebar {
+        padding-top: 60px;
+    }
+    .widget-area.tags {
+        text-align: center;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content {
+        text-align: left;
+        display: block;
+        float: none;
+        margin-top: 20px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .top-content .right-content .title {
+        display: none;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content .title {
+        display: inline-block;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content .ul {
+        display: inline-block;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content ul {
+        display: inline-flex;
+        padding-left: 20px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content ul li {
+        margin: 0 10px;
+    }
+    .blog-details-content {
+        padding: 60px;
+    }
+    .contact-top-area .single-contact-info-box {
+        margin-bottom: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li a {
+        padding: 10px 15px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content ul {
+        padding-left: 0;
+    }
+}
+
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px) {
+    .team-area-bottom .single-team-member .thumb img {
+        width: 100%;
+    }
+    .about-area .right-content-area h3 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .about-area .right-content-area {
+        padding-top: 40px;
+    }
+    .vertical-progress-inner ul li {
+        margin: 0;
+    }
+    .vertical-progress-inner {
+        margin-bottom: 40px;
+    }
+    .mission-vission-area .right-conent-area .btn-wrapper .boxed-btn.blank {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 200px;
+    }
+    .pricing-page-call-to-action .title {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-tab-content-inner .left-content-area {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-tab-content-inner .right-content-area {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        float: none;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog-details-content .single-blog-post .meta-time {
+        position: initial;
+    }
+    .blog-details-content .single-blog-post .details-container {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .meta-tags ul li {
+        font-size: 12px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .icon {
+        display: none;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .content {
+        padding-left: 20px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li a {
+        padding: 5px 10px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li {
+        margin: 0;
+    }
+    .blog-details-content .comments-area .single-comment-item .thumb {
+        position: initial;
+    }
+    .blog-details-content .comments-area .single-comment-item .content {
+        padding-left: 0;
+    }
+    .blog-details-content .comments-area .single-comment-item .reply-btn {
+        top: 30px;
+    }
+    .widget-area.social .social-links li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .widget-area.social .social-links li {
+        margin: 0;
+    }
+    .widget-area {
+        padding: 0;
+    }
+    .breadcumb-area .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .support-bar-area .support-bar-content ul li {
+        display: block;
+    }
+    .support-bar-area .support-bar-content {
+        display: none;
+    }
+    .support-bar-area .support-bar-content ul {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .support-bar-area .support-bar-content .single-support-item {
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .single-new-feed-items.mobile-border-top {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding-top: 30px;
+    }
+    .book-flight-page-content .flight-tab-menu-wrapper .nav-tabs .nav-item .nav-link span {
+        display: none;
+    }
+    .book-flight-page-content .flight-tab-menu-wrapper .nav-tabs .nav-item {
+        display: inline-block;
+        width: 130px;
+    }
+    .grid-item{
+    	width: 100%;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper img {
+	    width: 100%;
+	}
+	.breadcumb-area {
+	    padding: 120px 0;
+	}
+	.about-page-content-area{
+		padding-top: 60px;
+	}
+	.support-bar-area {
+	    padding-bottom: 0;
+	}
+	div#testimonial-carousel {
+	    margin-bottom: 60px;
+	}
+}
+
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+    .book-flight-page-content .flight-tab-menu-wrapper .nav-tabs .nav-item {
+        display: inline-block;
+        width: 95px;
+    }
+    .topbar-bar .topbar-inner .topbar-left-content {
+        text-align: center;
+        display: block;
+    }
+    .topbar-bar .topbar-inner .topbar-right-content {
+        float: none;
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+    }
+    .header-area .single-header-item h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .header-area .single-header-item .btn-wrapper .boxed-btn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .header-area .header-slider .single-header-item {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 15px;
+    }
+    .about-area .right-content-area h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .section-title p {
+        max-width: 90%;
+    }
+    .about-page-content-area .left-content-area .section-title-inner .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section-title-inner .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    #testimonial-carousel {
+        margin-bottom: 60px;
+    }
+    .progressbar {
+        width: 50px !important;
+    }
+    .vertical-progress-inner {
+        text-align: center;
+    }
+    .flight-tab-menu-wrapper .nav-tabs .nav-item,
+    .book-flight-page-content .flight-tab-menu-wrapper .nav-tabs .nav-item .nav-link {
+        display: block;
+        width: 100%;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-tab-content-inner .left-content-area .checkbox-element {
+        display: block;
+        width: 100%;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:first-child,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:last-child,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li.width-25per,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li {
+        width: 100%;
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:nth-child(2) .form-element .input-field.borderd,
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li:nth-child(4) .form-element .input-field.borderd {
+        border: 2px solid rgba(0, 0, 0, 0.2);
+    }
+    .book-flight-page-content .flight-tab-content-wrapper .tab-content .flight-search-area ul li .form-element .input-field.borderd {
+        text-align: center;
+    }
+    .contact-bottom-inner .right-content-area {
+        padding-right: 30px;
+    }
+    .service-area .service-area-bottom .service-bottom-inner .single-service-box .content h4 {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .mission-vission-area .right-conent-area .btn-wrapper .boxed-btn,
+    .mission-vission-area .right-conent-area .btn-wrapper .boxed-btn.blank {
+        width: 100%;
+    }
+    .mission-vission-area .right-conent-area h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .breadcumb-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .blog-details-content .single-blog-post .details-container .meta-tags ul li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .breadcumb-area {
+        padding: 100px 0 100px 0;
+    }
+    .about-area .right-content-area .section-subtitle {
+        margin-bottom: 10px;
+    }
+    .section-subtitle {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .pricing-plan-area .single-wide-plans .header .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .section-title-inner .subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .pricing-page-call-to-action .subtitle {
+        font-size: 18px;
+        line-height: 45px;
+    }
+    .portfolio-area .portfolio-content-wrapper .single-portfolio-wrapper img {
+	    width: 100%;
+	}
+	.single-why-us-box {
+	    text-align: center;
+	}
+	.pricing-plan-page-content {
+	    padding-bottom: 80px;
+	}
+	.contact-top-area .single-contact-info-box .content .title {
+	    display:  block;
+	    margin-top: 10px;
+	}
+}
+
+
+/* mobile tablet layout 384px */
+
+@media only screen and (max-width: 384px) {
+    .header-area .single-header-item h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .faq-area .faq-area-inner .card .card-header a {
+        font-size: 15px;
+    }
+    .news-feed-area .single-new-feed-items .content .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote {
+        padding-right: 20px;
+    }
+    .comment-form-wrapper .form-element .submit-btn {
+        width: 100%;
+    }
+    .widget-area.instagram .instagram-feed li:last-child {
+        margin-top: 10px;
+    }
+    .blog-details-content {
+        padding: 60px 20px;
+    }
+}
+
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    .news-feed-area .single-new-feed-items .content .meta-tags ul li:first-child {
+        margin-left: 0;
+        margin: 0;
+    }
+    .progressbar {
+        width: 40px !important;
+    }
+    .pricing-plan-area .single-wide-plans .header .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .section-title-inner .subtitle {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .blog-details-content .single-blog-post .details-container .meta-tags ul li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .service-area .service-area-bottom .service-bottom-inner .single-service-box .icon {
+	    position:  initial;
+	}
+
+	.service-area .service-area-bottom .service-bottom-inner .single-service-box .content {
+	    padding-left: 0;
+	}
+
+	.service-area .service-area-bottom .service-bottom-inner .single-service-box {
+	    text-align: center;
+	}
+
+	.service-area .service-area-bottom .service-bottom-inner .single-service-box .icon {
+	    margin-bottom: 20px;
+	}
+	.about-page-content-area .right-content-area .single-about-box-item .icon {
+	    position:  initial;
+	}
+
+	.about-page-content-area .right-content-area .single-about-box-item .content {
+	    padding-left: 0;
+	}
+
+	.about-page-content-area .right-content-area .single-about-box-item .icon {
+	    margin-bottom: 20px;
+	}
+
+	.about-page-content-area .right-content-area .single-about-box-item {
+	    text-align: center;
+	}
+	.pricing-plan-page-content {
+	    padding-bottom: 80px;
+	}
+	.contact-top-area .single-contact-info-box .content .title {
+	    display:  block;
+	    margin-top: 10px;
+	}
+}
+
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 320px) {
+    .news-feed-area .single-new-feed-items .content .meta-tags ul li {
+        display: inline-block;
+        margin: 0 0px;
+    }
+    .header-area .single-header-item h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .about-area .right-content-area {
+        padding-right: 20px;
+    }
+    .section-title-inner .title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .about-page-content-area .right-content-area .single-about-box-item .content .title {
+        font-size: 22px;
+    }
+    .about-page-content-area {
+        padding-top: 60px;
+    }
+    .contact-bottom-inner .submit-btn {
+        width: 100%;
+    }
+    .news-feed-area .single-new-feed-items .content .title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .about-area .right-content-area .section-subtitle {
+        margin-bottom: 5px;
+    }
+    .section-subtitle {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .pricing-plan-area .single-wide-plans .header .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .section-title-inner .subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .contact-bottom-inner .right-content-area .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}

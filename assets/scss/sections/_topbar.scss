@@ -1,0 +1,51 @@
+/*----------------------
+    Top bar 
+-----------------------*/
+
+.topbar-bar {
+    background-color: #f3f3f3;
+    padding: 15px 0;
+    .topbar-inner {
+        .topbar-left-content {
+            display: inline-block;
+            ul {
+                li {
+                    display: inline-block;
+                    margin: 0 5px;
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                    a {
+                        color: #4e4e62;
+                        font-size: 14px;
+                        line-height: 100%;
+                        @include transition($transition);
+                        &:hover {
+                            color: $base-color;
+                        }
+                    }
+                }
+            }
+        }
+        .topbar-right-content {
+            display: inline-block;
+            float: right;
+            ul {
+                li {
+                    display: inline-block;
+                    margin: 0 13px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    a {
+                        color: #4e4e62;
+                        @include transition($transition);
+                        &:hover {
+                            color: $base-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
