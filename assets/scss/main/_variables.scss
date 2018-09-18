@@ -120,7 +120,8 @@ $black-color-light: #999;
 
 // 
 
-.custom-control-label::before {
+.custom-control-label::before,
+.custom-control-label::after {
 	top:1rem
 }
 
@@ -135,6 +136,8 @@ $black-color-light: #999;
 
 .fitter {
   position:relative;
+  -webkit-filter:drop-shadow(0 2px 4px rgba(0, 0, 0, 0.175));
+  filter:drop-shadow(0 2px 4px rgba(0, 0, 0, 0.175));
 
   input {
 	  padding-top:25px;

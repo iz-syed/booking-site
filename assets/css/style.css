@@ -79,23 +79,26 @@
   background: linear-gradient(165deg, #15d8f8 20%, #09afee 60%); }
 
 /* line 123, ../scss/main/_variables.scss */
-.custom-control-label::before {
+.custom-control-label::before,
+.custom-control-label::after {
   top: 1rem; }
 
-/* line 127, ../scss/main/_variables.scss */
+/* line 128, ../scss/main/_variables.scss */
 .custom-radio {
   display: inline-block;
   padding-right: 1.5em;
   padding-left: 0.5em; }
 
-/* line 136, ../scss/main/_variables.scss */
+/* line 137, ../scss/main/_variables.scss */
 .fitter {
-  position: relative; }
-  /* line 139, ../scss/main/_variables.scss */
+  position: relative;
+  -webkit-filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.175));
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.175)); }
+  /* line 142, ../scss/main/_variables.scss */
   .fitter input {
     padding-top: 25px;
     padding-left: 15px; }
-  /* line 144, ../scss/main/_variables.scss */
+  /* line 147, ../scss/main/_variables.scss */
   .fitter:before {
     content: attr(data-value);
     position: absolute;
