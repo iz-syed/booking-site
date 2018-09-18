@@ -406,4 +406,11 @@
         backtoTop.fadeOut(100);
     });
 
+    // $('#myTabs a').click(function (e) {
+    //   e.preventDefault()
+    //   $(this).tab('show')
+    // })
+    $('#resulTab a:first').tab('show') // Select first tab
+
+
 }(jQuery));	

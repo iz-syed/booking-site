@@ -946,6 +946,57 @@
       -moz-transition: all 0.3s ease-in;
       transition: all 0.3s ease-in; }
 
+/* line 862, ../scss/main/_global.scss */
+.filter-tab {
+  display: block; }
+  /* line 864, ../scss/main/_global.scss */
+  .filter-tab li {
+    display: inline-block; }
+    /* line 866, ../scss/main/_global.scss */
+    .filter-tab li a {
+      padding: 16px 7px 13px;
+      margin-left: 15px;
+      display: block;
+      color: #777; }
+    /* line 874, ../scss/main/_global.scss */
+    .filter-tab li.active a {
+      color: red; }
+
+/* line 882, ../scss/main/_global.scss */
+.filter-tab-content h3 {
+  margin-left: 0; }
+
+/* line 888, ../scss/main/_global.scss */
+.boxer {
+  background-color: #fff;
+  border: 1px solid #b2aea5;
+  -webkit-filter: drop-shadow(0 2px 14px rgba(0, 0, 0, 0.175));
+  filter: drop-shadow(0 2px 14px rgba(0, 0, 0, 0.175));
+  padding: 15px;
+  position: relative; }
+  /* line 896, ../scss/main/_global.scss */
+  .boxer:before, .boxer:after {
+    bottom: 100%;
+    left: 10%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none; }
+  /* line 907, ../scss/main/_global.scss */
+  .boxer:before {
+    border-color: rgba(178, 174, 165, 0);
+    border-bottom-color: #b2aea5;
+    border-width: 16px;
+    margin-left: -16px; }
+  /* line 914, ../scss/main/_global.scss */
+  .boxer:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 15px;
+    margin-left: -15px; }
+
 /*====================
 ** Normalize
 ====================*/
