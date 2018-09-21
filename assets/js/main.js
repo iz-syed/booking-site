@@ -441,6 +441,21 @@ var Element = (function ( $ )
 (function ($) {
     jQuery(document).ready(function($) {
 
+        $('body').on('click', function(event) {
+            var $target = $( event.target );
+
+            if ($target.parents('.t-click-outside').length 
+                || $target.hasClass('airport-arrival')
+                || $target.hasClass('drop-text')
+                || $target.hasClass('passengers')
+                ) {
+                console.log('SSS', event.target);
+            } else {
+               $(".t-click-outside .c-field__dropdown").removeClass('is-active');
+            }
+            
+        });
+
         jQuery('.drop-text').on('click',function(){
 
             var $parent = jQuery(this).parent().parent();
