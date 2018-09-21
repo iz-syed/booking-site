@@ -488,6 +488,53 @@ var Element = (function ( $ )
             }           
         });
 
+
+        jQuery('.airport-arrival').on('click',function(){
+
+            var $parent = jQuery(this).parent().parent();
+            if (!$parent.find('.t-click-outside').length) {
+                var template = new Element('#airport-arrival-template'),
+                    $elm = template.element;
+                $elm.addClass('t-click-outside');
+
+
+                $parent.append($elm);
+            }            
+
+            console.log($elm);
+            var $dd = $parent.find(".t-click-outside .c-field__dropdown");
+            $dd.attr('style', '');
+
+            if ($dd.hasClass('is-active')) {
+                $dd.removeClass('is-active');
+            } else {
+                $dd.addClass('is-active');
+            }           
+        });
+
+        jQuery('.passengers').on('click',function(){
+
+            var $parent = jQuery(this).parent().parent();
+            if (!$parent.find('.t-click-outside').length) {
+                var template = new Element('#passengers-template'),
+                    $elm = template.element;
+                $elm.addClass('t-click-outside');
+
+
+                $parent.append($elm);
+            }            
+
+            console.log($elm);
+            var $dd = $parent.find(".t-click-outside .c-field__dropdown");
+            $dd.attr('style', '');
+
+            if ($dd.hasClass('is-active')) {
+                $dd.removeClass('is-active');
+            } else {
+                $dd.addClass('is-active');
+            }           
+        });
+
         
     });    
 }(jQuery));
