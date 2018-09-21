@@ -1,1432 +1,832 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Page Title</title>
-<!-- favicon -->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<!-- bootstrap -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<!-- fontawesome -->
-<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-<!-- flaticon -->
-<link rel="stylesheet" href="assets/css/flaticon.css">
-<!-- <link rel="stylesheet" href="assets/css/jquery.datepick.css"> -->
-<!-- bootstrap datetime picker -->
-<!-- <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css"> -->
-<!-- animate.css -->
-<link rel="stylesheet" href="assets/css/animate.css">
-<!-- Owl Carousel -->
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-<!-- magnific popup -->
-<link rel="stylesheet" href="assets/css/magnific-popup.css">
-<!-- stylesheet -->
-<link rel="stylesheet" href="assets/css/style.css">
-<!-- responsive -->
-<link rel="stylesheet" href="assets/css/responsive.css">
-<link rel="stylesheet" href="assets/css/pikaday.css">
-</head>
-
-<body>
-
-<!-- support bar area start  -->
-<section class="support-bar-area">
- <div class="container">
-  <div class="row">
-   <div class="col-lg-3 col-sm-12"> <a href="index.html" class="logo">
-    <h3>Logo Name</h3>
-    </a> </div>
-   <div class="col-lg-9 col-sm-12">
-    <div class="support-bar-content"> 
-     <!-- support bar content -->
-     <ul>
-      <li>
-       <div class="single-support-item"> 
-        <!-- single support item -->
-        <div class="icon"> <i class="fas fa-check-square"></i> </div>
-        <div class="content"> 
-         <!-- content --> 
-         <span class="subtitle">Available Support</span>
-         <h5>24/7 Online Support</h5>
-        </div>
-        <!-- /.content --> 
-       </div>
-       <!-- /.single support item --> 
-      </li>
-      <li>
-       <div class="single-support-item"> 
-        <!-- single support item -->
-        <div class="icon"> <i class="fas fa-clock"></i> </div>
-        <div class="content"> 
-         <!-- content --> 
-         <span class="subtitle">Working Time</span>
-         <h5>8:00AM - 12:00PM</h5>
-        </div>
-        <!-- /.content --> 
-       </div>
-       <!-- /.single support item --> 
-      </li>
-      <li>
-       <div class="single-support-item"> 
-        <!-- single support item -->
-        <div class="icon"> <i class="fas fa-envelope"></i> </div>
-        <div class="content"> 
-         <!-- content --> 
-         <span class="subtitle">Get In Touch</span> <a href="mailTo:Info@gmail.com">
-         <h5>Info@gmail.com</h5>
-         </a> </div>
-        <!-- /.content --> 
-       </div>
-       <!-- /.single support item --> 
-      </li>
-     </ul>
-    </div>
-    <!-- /.support bar content --> 
-   </div>
-  </div>
-  <!-- /.row --> 
- </div>
- <!-- /.container --> 
-</section>
-<!-- support bar area end  --> 
-
-<!-- navbar area start -->
-<nav class="navbar navbar-area navbar-expand-lg navbar-light ">
- <div class="container">
-  <div class="collapse navbar-collapse" id="homeNav"> 
-   <!-- navbar collapse start -->
-   <ul class="navbar-nav">
-    <!-- navbar- nav -->
-    <li class="nav-item"> <a class="nav-link pl-0" href="index.html">Home <span class="sr-only">(current)</span> </a> </li>
-    <li class="nav-item"> <a class="nav-link" href="about.html">About Us</a> </li>
-    <li class="nav-item"> <a href="#" class="nav-link">Reviews</a> </li>
-    <li class="nav-item"> <a href="#" class="nav-link">Blog</a> </li>
-    <li class="nav-item"> <a href="#" class="nav-link">FAQ's</a> </li>
-    <li class="nav-item"> <a href="#" class="nav-link">Sitemap</a> </li>
-    <li class="nav-item"> <a href="#" class="nav-link">Contact Us</a> </li>
-    <li class="nav-item"> <a href="#" class="nav-link">Login</a> </li>
-   </ul>
-   <!-- /.navbar-nav --> 
-  </div>
-  <div class="navbar-btn-wrapper"> 
-   <!-- navbar btn wrapper --> 
-   <a href="#" class="boxed-btn btn-rounded">Get Quotation</a> </div>
-  <!-- /.navbar btn wrapper -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#homeNav" aria-controls="homeNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  <!-- navbar collapse end --> 
- </div>
-</nav>
-<!-- navbar area end --> 
-
-<!-- Form area start  -->
-<div id="sfreact-reactRenderer">
- <form class="o-searchbox qa-searchbox" autocomplete="off" role="form">
-  <!-- Radio button start-->
-  <div class="o-searchbox__item qa-field--from-to" id="search-form-radios">
-   <label class="o-align c-radio qa-radio--from-gateway">
-    <input type="radio" class="c-radio__radio" name="searchbox-direction" value="1" checked="">
-    <i class="c-radio__icon"></i> <span class="c-radio__description">From the airport</span> </label>
-   <label class="o-align c-radio qa-radio--to-gateway">
-    <input type="radio" class="c-radio__radio" name="searchbox-direction" value="0">
-    <i class="c-radio__icon"></i> <span class="c-radio__description">To the airport</span> </label>
-  </div>
-  <!-- Radion button end --> 
-  
-  <!-- o-searchbox__item start -->
-  <div class="o-searchbox__item o-searchbox__item--destination">
-   <div class="c-field qa-field--gateway">
-    <div class="c-field__container">
-     <div class="c-field__item qa-field__item--gateway">
-      <label class="c-field__input">
-      <span class="c-field__highlight"> <svg class="i-flight-arrival" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 11">
-      <path class="i-flight-arrival__content" fill-rule="evenodd" d="M1.685 2.276L3.459 4.15h1.302L4.491.038c.404-.095 1.047.199 1.29.69l1.866 3.764c.244.493.87 1.014 1.4 1.164 0 0 .777.19 1.935.652 1.157.462 1.012.77 1.012 1.386l-.039.022c-.477.275-1.298.385-1.83.245l-7.17-1.883-1.271-1.353C1.305 4.322 1 3.552 1 3.002v-.456c0-.546.307-.67.685-.27zM6 11v-1h7v1H6z"></path>
-      </svg> <span class="c-field__reset qa-field__reset--gateway"> <svg class="i-cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11">
-      <path class="i-cross__content" d="M5.834 5.507L9.93 1.402a.235.235 0 1 0-.334-.333L5.5 5.174 1.403 1.07a.235.235 0 1 0-.333.333l4.096 4.105L1.07 9.593a.234.234 0 0 0 0 .333c.037.056.092.074.166.074a.227.227 0 0 0 .167-.074L5.5 5.84l4.097 4.086a.227.227 0 0 0 .167.074c.074 0 .13-.018.166-.074a.234.234 0 0 0 0-.333L5.834 5.507z" stroke="#979797" stroke-width=".5"></path>
-      </svg> </span> </span>
-      <div class="c-field__content"> <span class="c-field__label">Which airport are you arriving at?</span>
-       <input type="text" class="drop-text c-field__input-text qa-field__input--gateway" id="GATEWAY" placeholder="Eg. Barcelona airport" name="GATEWAY" value="">
-      </div>
-      </label>
-     </div>
-     <div class="t-click-outside">
-      <div class="c-field__dropdown">
-       <div id="gateway-container" class="o-dropdown--expanded o-dropdown qa-dropdown--gateway">
-        <div class="o-dropdown__container">
-         <div class="o-dropdown__item o-dropdown__item--clean">
-          <div class="o-list">
-           <div class="o-list__container o-list__container--clean-top">
-            <div class="is-airport-selected o-tabs">
-             <div class="is-selected o-tabs__item qa-tab">
-               <span class="o-tabs__icon">
-                 <svg class="i-plane" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15">
-                  <path class="i-plane__content" d="M13.72 11.08c.07 0 .14 0 .2-.03.05-.04.08-.1.08-.17V9.85c0-.2-.1-.34-.26-.45L8.42 6.24c-.17-.1-.25-.25-.25-.46V2.23c0-.2-.04-.37-.12-.54-.2-.55-.5-.84-.88-.9C7.1.78 7.07.77 7 .77c-.06 0-.12 0-.2.03-.02 0-.04 0-.07.02-.03 0-.06.02-.1.04-.13.04-.26.12-.37.26-.1.13-.2.25-.26.37l-.08.2c-.06.16-.1.34-.1.53v3.55c0 .2-.07.36-.24.46L.26 9.4c-.17.1-.26.26-.26.45v1.03c0 .07.03.13.1.17.04.03.1.04.18.03l5.27-1.7c.07-.05.14-.05.2 0 .05.05.08.1.08.2v2.75c0 .2-.07.37-.22.48l-.7.52c-.16.12-.23.28-.23.5v.67c0 .07.03.12.08.16.06.04.13.05.2.03l1.77-.52c.2-.06.37-.06.56 0l1.77.5c.07.03.14.02.2-.02.05-.04.08-.1.08-.17v-.7c0-.2-.07-.36-.22-.48l-.7-.5c-.16-.12-.23-.28-.23-.5V9.58c0-.1.03-.16.08-.2.06-.04.13-.04.2 0l5.27 1.7z"></path>
-                </svg>
-              </span>
-               <span data-id="airport" class="o-tabs__text">Airports</span>
-              </div>
-             <div class="o-tabs__item qa-tab"> <span class="o-tabs__icon"> <svg class="i-anchor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
-              <path class="i-anchor__content" d="M13.93 9.07a.227.227 0 0 0-.18-.07H11c-.1 0-.2.05-.23.16-.05.1-.03.2.05.27l.78.78c-.35.5-.84.88-1.48 1.2-.64.34-1.34.55-2.12.65V7h1.5c.14 0 .25-.05.35-.15.1-.1.15-.2.15-.35v-1a.47.47 0 0 0-.15-.35c-.1-.1-.2-.15-.35-.15H8V3.73c.3-.18.54-.42.73-.73.18-.3.27-.64.27-1C9 1.45 8.8.98 8.4.6 8.03.2 7.56 0 7 0c-.55 0-1.02.2-1.4.6C5.2.97 5 1.44 5 2c0 .36.1.7.27 1 .2.3.43.55.73.73V5H4.5a.47.47 0 0 0-.35.15c-.1.1-.15.2-.15.35v1c0 .14.05.25.15.35.1.1.2.15.35.15H6v5.05c-.78-.1-1.48-.3-2.12-.64-.64-.32-1.13-.72-1.48-1.2l.78-.77c.08-.08.1-.17.05-.27A.234.234 0 0 0 3 9H.25a.241.241 0 0 0-.25.25V12c0 .1.05.2.16.23l.1.02c.06 0 .12-.02.17-.07l.73-.73c.62.75 1.45 1.34 2.48 1.77 1.04.44 2.16.66 3.36.66 1.2 0 2.32-.22 3.36-.66 1.03-.43 1.86-1.02 2.48-1.77l.73.73c.05.05.1.07.18.07l.1-.02c.1-.04.15-.12.15-.23V9.25c0-.07-.02-.13-.07-.18zM7.35 2.35c-.1.1-.2.15-.35.15a.47.47 0 0 1-.35-.15c-.1-.1-.15-.2-.15-.35 0-.14.05-.25.15-.35.1-.1.2-.15.35-.15.14 0 .25.05.35.15.1.1.15.2.15.35 0 .14-.05.25-.15.35z"></path>
-              </svg> </span> <span data-id="ports" class="o-tabs__text">Ports</span> </div>
-             <div class="o-tabs__item qa-tab"> <span class="o-tabs__icon"> <svg class="i-train" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 18">
-              <path class="i-train__content" d="M13.12 16.35l-2.45-4.46c.7-.12 1.2-.74 1.2-1.44V3.88A3.16 3.16 0 0 0 8.7.7H4.5C2.76.7 1.3 2.12 1.3 3.92v6.54c0 .73.5 1.32 1.2 1.43L.1 16.34c-.2.36-.1.8.28 1 .1.06.22.06.33.06.27 0 .52-.14.63-.36l.22-.36h10.1l.23.36c.14.26.36.37.62.37.1 0 .22-.03.33-.06.37-.2.48-.63.3-1zm-3.44-3.3H3.53l.62-1.13h4.9l.63 1.14zm-.1-2.44c-.6 0-1.07-.47-1.07-1.05 0-.6.5-1.06 1.07-1.06.6 0 1.06.46 1.06 1.05 0 .55-.47 1.06-1.06 1.06zm-7-6.28c0-1.13.9-2.05 2-2.05h4c1.1 0 2.05.92 2.05 2.05v1.75c0 .4-.33.7-.73.7H3.3c-.4 0-.7-.33-.7-.7V4.32zm1.06 4.13c.58 0 1.06.48 1.06 1.06 0 .6-.48 1.07-1.06 1.07-.6 0-1.06-.47-1.06-1.06 0-.57.47-1.05 1.06-1.05zm-1.5 7.13l.8-1.43h7.33l.8 1.43H2.14z"></path>
-              </svg> </span> <span data-id="trains" class="o-tabs__text">Train stations</span> </div>
-            </div>
-            <div class="o-list__headline o-list__headline--smaller">
-             <h3 class="o-list__title o-list__title--large">Choose from over 38,000 routes worldwide</h3>
-            </div>
-            <div class="o-slideshow">
-             <div class="o-slideshow__wrapper" style="height: 359px;">
-              <div class="o-slideshow__slide airport" data-id="GATEWAY">
-                <span class="o-slideshow__title">Most relevant airports</span>
-               <div class="c-card" id="gateway_ALC">
-                 <img class="c-card__image" src="assets/img/search-form/ALC.jpg">
-                  <div class="c-card__content">
-                    <span class="c-card__title">Alicante airport</span>
-                    <span class="c-card__description">Spain</span>
-                  </div>
-               </div>
-               <div class="c-card" id="gateway_BCN"> <img class="c-card__image" src="assets/img/search-form/BCN.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Barcelona airport</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_AGP"> <img class="c-card__image" src="assets/img/search-form/AGP.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Malaga airport</span><span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_PMI"> <img class="c-card__image" src="assets/img/search-form/PMI.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Mallorca airport</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_LIS"> <img class="c-card__image" src="assets/img/search-form/LIS.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Lisbon airport</span><span class="c-card__description">Portugal</span> </div>
-               </div>
-               <div class="c-card" id="gateway_FAO"> <img class="c-card__image" src="assets/img/search-form/FAO.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Faro airport</span> <span class="c-card__description">Portugal</span> </div>
-               </div>
-               <div class="c-card" id="gateway_MLA"> <img class="c-card__image" src="assets/img/search-form/MLA.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Malta airport</span> <span class="c-card__description">Malta</span> </div>
-               </div>
-               <div class="c-card" id="gateway_LPA"> <img class="c-card__image" src="assets/img/search-form/LPA.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Gran Canaria airport</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_TFS"> <img class="c-card__image" src="assets/img/search-form/TFS.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Tenerife South airport</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_FCO"> <img class="c-card__image" src="assets/img/search-form/FCO.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Rome Fiumicino airport</span> <span class="c-card__description">Italy</span> </div>
-               </div>
-              </div>
-              <div class="o-slideshow__slide ports" data-id="GATEWAY">
-                <span class="o-slideshow__title">Most relevant ports</span>
-               <div class="c-card" id="gateway_ITCVV"> <img class="c-card__image" src="assets/img/search-form/ITCVV.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Rome Civitavecchia cruise port</span> <span class="c-card__description">Italy</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ITVCE"> <img class="c-card__image" src="assets/img/search-form/ITVCE.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Venice cruise port</span> <span class="c-card__description">Italy</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ESBCN"> <img class="c-card__image" src="assets/img/search-form/ESBCN.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Barcelona cruise port (Moll de Barcelona)</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ESPMI"> <img class="c-card__image" src="assets/img/search-form/ESPMI.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Palma Mallorca cruise port</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_FRMAR"> <img class="c-card__image" src="assets/img/search-form/FRMAR.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Marseille Cruise Port </span> <span class="c-card__description">France</span> </div>
-               </div>
-               <div class="c-card" id="gateway_LISCP"> <img class="c-card__image" src="assets/img/search-form/LISCP.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Lisbon cruise port</span> <span class="c-card__description">Portugal</span> </div>
-               </div>
-               <div class="c-card" id="gateway_BRSAN"> <img class="c-card__image" src="assets/img/search-form/BRSAN.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Santos Cruise Port</span> <span class="c-card__description">Brazil</span> </div>
-               </div>
-               <div class="c-card" id="gateway_DKCPH"> <img class="c-card__image" src="assets/img/search-form/DKCPH.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Copenhagen cruise port</span> <span class="c-card__description">Denmark</span> </div>
-               </div>
-               <div class="c-card" id="gateway_USMIA"> <img class="c-card__image" src="assets/img/search-form/USMIA.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Miami cruise port</span> <span class="c-card__description">United States of America</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ESPDL"> <img class="c-card__image" src="assets/img/search-form/ESPDL.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Puerto de la Luz cruise port (Las Palmas)</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-              </div>
-              <div class="o-slideshow__slide trains" data-id="GATEWAY"> <span class="o-slideshow__title">Most relevant train stations</span>
-               <div class="c-card" id="gateway_FRPARLYO"> <img class="c-card__image" src="assets/img/search-form/FRPARLYO.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Paris Gare de Lyon</span> <span class="c-card__description">France</span> </div>
-               </div>
-               <div class="c-card" id="gateway_FRPARNOR"> <img class="c-card__image" src="assets/img/search-form/FRPARNOR.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Paris Gare du Nord</span> <span class="c-card__description">France</span> </div>
-               </div>
-               <div class="c-card" id="gateway_FRPAREST"> <img class="c-card__image" src="assets/img/search-form/FRPAREST.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Paris Gare de l'Est</span> <span class="c-card__description">France</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ESBCNSAN"> <img class="c-card__image" src="assets/img/search-form/ESBCNSAN.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Barcelona Sants train station</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ESMADATC"> <img class="c-card__image" src="assets/img/search-form/ESMADATC.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Madrid Atocha train station</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_LONPANTS"> <img class="c-card__image" src="assets/img/search-form/LONPANTS.jpg">
-                <div class="c-card__content"> <span class="c-card__title">London St. Pancras train station</span> <span class="c-card__description">United Kingdom</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ESSVQSJU"> <img class="c-card__image" src="assets/img/search-form/ESSVQSJU.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Seville Santa Justa train station</span> <span class="c-card__description">Spain</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ITMILCTS"> <img class="c-card__image" src="assets/img/search-form/ITMILCTS.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Milan central train station</span> <span class="c-card__description">Italy</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ITROMTER"> <img class="c-card__image" src="assets/img/search-form/ITROMTER.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Rome Termini train station</span> <span class="c-card__description">Italy</span> </div>
-               </div>
-               <div class="c-card" id="gateway_ITNAPPGG"> <img class="c-card__image" src="assets/img/search-form/ITNAPPGG.jpg">
-                <div class="c-card__content"> <span class="c-card__title">Naples train station</span> <span class="c-card__description">Italy</span> </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="c-field__validation"> <span class="c-field__error">Please specify an airport</span> </div>
-   </div>
-   <div class="c-field qa-field--location">
-    <div class="c-field__container">
-     <div class="c-field__item qa-field__item--location">
-      <label class="c-field__input">
-      <span class="c-field__highlight"> <svg class="i-location" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 12">
-      <path class="i-location__content" fill-rule="evenodd" d="M6.76.617a4.55 4.55 0 0 1 1.637 1.659C8.8 2.97 9 3.719 9 4.522c0 .803-.243 1.69-.727 2.662C7.217 9.57 4.55 12 4.55 12c-.067-.059-2.637-2.398-3.923-4.855C.21 6.24 0 5.384 0 4.581c0-.809.2-1.565.602-2.266A4.632 4.632 0 0 1 2.245.632 4.267 4.267 0 0 1 4.5 0c.816 0 1.57.205 2.26.617zM4.49 6.842c.71 0 1.316-.247 1.817-.74.5-.492.751-1.087.751-1.786 0-.698-.25-1.292-.75-1.78A2.508 2.508 0 0 0 4.49 1.8a2.48 2.48 0 0 0-1.812.74 2.41 2.41 0 0 0-.747 1.776c0 .698.25 1.294.752 1.786.5.493 1.103.74 1.807.74v-.001z"></path>
-      </svg> <span class="c-field__reset qa-field__reset--location"> <svg class="i-cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11">
-      <path class="i-cross__content" d="M5.834 5.507L9.93 1.402a.235.235 0 1 0-.334-.333L5.5 5.174 1.403 1.07a.235.235 0 1 0-.333.333l4.096 4.105L1.07 9.593a.234.234 0 0 0 0 .333c.037.056.092.074.166.074a.227.227 0 0 0 .167-.074L5.5 5.84l4.097 4.086a.227.227 0 0 0 .167.074c.074 0 .13-.018.166-.074a.234.234 0 0 0 0-.333L5.834 5.507z" stroke="#979797" stroke-width=".5"></path>
-      </svg> </span> </span>
-      <div class="c-field__content"> <span class="c-field__label">Where do you want to go?</span>
-       <input type="text" class="drop-text c-field__input-text qa-field__input--location" id="LOCATION" placeholder="Eg. Barcelona city" name="LOCATION" value="">
-      </div>
-      </label>
-     </div>
-     <div class="t-click-outside">
-      <div class="c-field__dropdown">
-       <div class="o-dropdown qa-dropdown--location">
-        <div class="o-dropdown__container o-dropdown__container--flex o-dropdown__container--scroll">
-         <div class="o-dropdown__item">
-          <div class="o-list">
-           <div class="o-list__container o-list__container--info">
-            <div class="o-list__headline">
-             <h3 class="o-list__title">No airport selected</h3>
-            </div>
-            <div class="o-list__content"> <span class="c-info">Please select an airport in box 1</span> </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="c-field__validation"> <span class="c-field__error">Please specify a resort</span> </div>
-   </div>
-  </div>
-  <!-- o-searchbox__item end --> 
-  
-  <!--  -->
-  <div class="o-searchbox__item o-searchbox__item--dates">
-   <div class="c-field qa-field-outward">
-    <div class="c-field__container c-field__container--more-items">
-     <div class="c-field__item qa-field__item--outward-date">
-      <label class="c-field__input">
-      <span class="c-field__highlight"> <svg class="i-arrival" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 13">
-      <path class="i-arrival__content" d="M11.077 1.925c.649 0 .923.278.923.963v9.135c0 .676-.278.977-.923.977H.923C.218 13 0 12.731 0 12.023V2.888c0-.668.274-.963.923-.963h.923v-.722C1.846.623 2.268 0 3 0h.462c.592 0 1.154.511 1.154 1.203v.722h2.769v-.722C7.385.437 7.798 0 8.539 0H9c.751 0 1.154.541 1.154 1.203v.722h.923zm-2.77-.722V3.37c0 .191.027.241.232.241h.46c.134 0 .232-.034.232-.24V1.202c0-.17-.042-.24-.231-.24h-.461c-.166 0-.231.12-.231.24zm-5.607 0V3.37c0 .191.026.241.23.241h.462c.133 0 .23-.034.23-.24V1.202c0-.17-.04-.24-.23-.24h-.461c-.166 0-.231.12-.231.24zm.8 8.118V7.68h2.935l.002-.853c0-.088.032-.165.1-.23A.34.34 0 0 1 6.78 6.5a.34.34 0 0 1 .242.097l1.377 1.605a.307.307 0 0 1 .102.23.307.307 0 0 1-.102.23l-1.377 1.74a.339.339 0 0 1-.242.098.34.34 0 0 1-.242-.097.307.307 0 0 1-.102-.23V9.32H3.5zm7.5 2.68V4.813H1v7.188h10z"></path>
-      </svg> </span>
-      <div class="c-field__content"> <span class="c-field__label">When does your flight arrive?</span>
-       <input type="text" class="datepicker drop-text c-field__input-text qa-field__input--outward-date" id="OUTWARD_DATE" placeholder="Outward date" name="OUTWARD_DATE" readonly>
-      </div>
-      </label>
-     </div>
-     <div class="c-field__item qa-field__item--outward-time c-field__item--alt">
-      <label class="c-field__input">
-      <div class="c-field__content"> <span class="c-field__label">Time</span>
-       <input type="text" class="drop-text c-field__input-text qa-field__input--outward-time" id="OUTWARD_TIME" placeholder="Hr:Min" name="OUTWARD_TIME" value="Hr:Min" readonly>
-      </div>
-      </label>
-     </div>
-     <div class="t-click-outside">
-      <div class="c-field__dropdown c-field__dropdown--timepicker">
-       <div class="o-dropdown qa-dropdown--outward-timepicker">
-        <div class="o-dropdown__container">
-         <div class="o-dropdown__item o-dropdown__item--clean">
-          <div class="o-select-wrapper">
-           <div class="o-select-wrapper__container">
-            <div class="c-select">
-             <select id="qa-select--outward-hours-id" data-ref="arrive-hr" data-toggle="hr" data-id="OUTWARD_TIME" class="time-change-hr c-select__item qa-select--outward-hours">
-              <option value=""> Hr</option>
-              <option value="00">00</option>
-              <option value="01">01</option>
-              <option value="02">02</option>
-              <option value="03">03</option>
-              <option value="04">04</option>
-              <option value="05">05</option>
-              <option value="06">06</option>
-              <option value="07">07</option>
-              <option value="08">08</option>
-              <option value="09">09</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-             </select>
-             <i class="c-select__caret"> <svg class="i-chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10">
-             <path class="i-chevron-down__content" d="M15.64.56C15.47.3 15.2.2 14.84.2c-.62 0-1.25.54-1.5.82L8 6.64 2.76 1.02c-.18-.28-.63-.9-1.25-1-.45-.1-.8.1-.97.3C0 .73-.27 1.57.36 2.56l6.56 6.97c.4.25.73.46.98.46.38 0 .73-.2 1-.46L15.12 3c.62-.7 1.32-1.63.52-2.44z"></path>
-             </svg></i> </div>
-           </div>
-           <div class="o-select-wrapper__container">
-            <div class="c-select">
-             <select id="qa-select--outward-minutes-id" data-ref="arrive-min" data-toggle="min" data-id="OUTWARD_TIME" class="time-change-min c-select__item qa-select--outward-minutes">
-              <option value=""> Min</option>
-              <option value="00">00</option>
-              <option value="05">05</option>
-              <option value="10">10</option>
-              <option value="15">15</option>
-              <option value="20">20</option>
-              <option value="25">25</option>
-              <option value="30">30</option>
-              <option value="35">35</option>
-              <option value="40">40</option>
-              <option value="45">45</option>
-              <option value="50">50</option>
-              <option value="55">55</option>
-             </select>
-             <i class="c-select__caret"><svg class="i-chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10">
-             <path class="i-chevron-down__content" d="M15.64.56C15.47.3 15.2.2 14.84.2c-.62 0-1.25.54-1.5.82L8 6.64 2.76 1.02c-.18-.28-.63-.9-1.25-1-.45-.1-.8.1-.97.3C0 .73-.27 1.57.36 2.56l6.56 6.97c.4.25.73.46.98.46.38 0 .73-.2 1-.46L15.12 3c.62-.7 1.32-1.63.52-2.44z"></path>
-             </svg></i> </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="c-field__validation"> <span class="c-field__error">Please specify the outward transfer date</span> </div>
-   </div>
-   <div class="c-field qa-field-inward">
-    <div class="c-field__container c-field__container--more-items">
-     <div class="c-field__item qa-field__item--inward-date">
-      <label class="c-field__input">
-      <span class="c-field__highlight"> <svg class="i-return" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 13">
-      <path class="i-return__content" d="M11.077 1.925c.649 0 .923.278.923.963v9.135c0 .676-.278.977-.923.977H.923C.218 13 0 12.731 0 12.023V2.888c0-.668.274-.963.923-.963h.923v-.722C1.846.623 2.268 0 3 0h.462c.592 0 1.154.511 1.154 1.203v.722h2.769v-.722C7.385.437 7.798 0 8.539 0H9c.751 0 1.154.541 1.154 1.203v.722h.923zm-2.77-.722V3.37c0 .191.027.241.232.241h.46c.134 0 .232-.034.232-.24V1.202c0-.17-.042-.24-.231-.24h-.461c-.166 0-.231.12-.231.24zm-5.607 0V3.37c0 .191.026.241.23.241h.462c.133 0 .23-.034.23-.24V1.202c0-.17-.04-.24-.23-.24h-.461c-.166 0-.231.12-.231.24zM11 12.001V4.813H1v7.188h10zM8.5 7.679V9.32H5.565l-.002.853a.305.305 0 0 1-.1.23.34.34 0 0 1-.242.097.34.34 0 0 1-.242-.097L3.602 8.798a.307.307 0 0 1-.102-.23c0-.088.034-.165.102-.23l1.377-1.74A.339.339 0 0 1 5.22 6.5a.34.34 0 0 1 .242.097.307.307 0 0 1 .102.23v.852H8.5z"></path>
-      </svg> </span>
-      <div class="c-field__content"> <span class="c-field__label">When does your flight depart?</span>
-       <input type="text" class="datepicker c-field__input-text qa-field__input--inward-date" id="INWARD_DATE" placeholder="Return date" name="INWARD_DATE" readonly>
-      </div>
-      </label>
-     </div>
-     <div class="c-field__item qa-field__item--inward-time c-field__item--alt">
-      <label class="c-field__input">
-      <div class="c-field__content"> <span class="c-field__label">Time</span>
-       <input type="text" class="drop-text c-field__input-text qa-field__input--inward-time" id="INWARD_TIME" placeholder="Hr:Min" name="INWARD_TIME" value="Hr:Min" readonly>
-      </div>
-      </label>
-     </div>
-     <div class="t-click-outside">
-      <div class="c-field__dropdown c-field__dropdown--timepicker">
-       <div class="o-dropdown qa-dropdown--inward-timepicker">
-        <div class="o-dropdown__container">
-         <div class="o-dropdown__item o-dropdown__item--clean">
-          <div class="o-select-wrapper">
-           <div class="o-select-wrapper__container">
-            <div class="c-select">
-             <select id="qa-select--inward-hours-id" data-ref="depart-hr" data-id="INWARD_TIME" data-toggle="hr" class="time-change-hr c-select__item qa-select--inward-hours">
-              <option value=""> Hr</option>
-              <option value="00">00</option>
-              <option value="01">01</option>
-              <option value="02">02</option>
-              <option value="03">03</option>
-              <option value="04">04</option>
-              <option value="05">05</option>
-              <option value="06">06</option>
-              <option value="07">07</option>
-              <option value="08">08</option>
-              <option value="09">09</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-             </select>
-             <i class="c-select__caret"><svg class="i-chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10">
-             <path class="i-chevron-down__content" d="M15.64.56C15.47.3 15.2.2 14.84.2c-.62 0-1.25.54-1.5.82L8 6.64 2.76 1.02c-.18-.28-.63-.9-1.25-1-.45-.1-.8.1-.97.3C0 .73-.27 1.57.36 2.56l6.56 6.97c.4.25.73.46.98.46.38 0 .73-.2 1-.46L15.12 3c.62-.7 1.32-1.63.52-2.44z"></path>
-             </svg></i></div>
-           </div>
-           <div class="o-select-wrapper__container">
-            <div class="c-select">
-             <select id="qa-select--inward-minutes-id" data-ref="depart-min" data-id="INWARD_TIME" data-toggle="min" class="time-change-min c-select__item qa-select--inward-minutes">
-              <option value=""> Min</option>
-              <option value="00">00</option>
-              <option value="05">05</option>
-              <option value="10">10</option>
-              <option value="15">15</option>
-              <option value="20">20</option>
-              <option value="25">25</option>
-              <option value="30">30</option>
-              <option value="35">35</option>
-              <option value="40">40</option>
-              <option value="45">45</option>
-              <option value="50">50</option>
-              <option value="55">55</option>
-             </select>
-             <i class="c-select__caret"><svg class="i-chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10">
-             <path class="i-chevron-down__content" d="M15.64.56C15.47.3 15.2.2 14.84.2c-.62 0-1.25.54-1.5.82L8 6.64 2.76 1.02c-.18-.28-.63-.9-1.25-1-.45-.1-.8.1-.97.3C0 .73-.27 1.57.36 2.56l6.56 6.97c.4.25.73.46.98.46.38 0 .73-.2 1-.46L15.12 3c.62-.7 1.32-1.63.52-2.44z"></path>
-             </svg></i></div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="c-field__validation"><span class="c-field__error">Please specify the return transfer date</span></div>
-   </div>
-  </div>
-  <div class="o-searchbox__item o-searchbox__item--legs">
-   <div class="c-field__item qa-field--legs">
-    <label class="o-align c-checkbox">
-     <input type="checkbox" class="oneway-radio c-checkbox__checkbox" value="on">
-     <i class="c-checkbox__icon"> <svg class="i-checkbox" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 14">
-     <path class="i-checkbox__content" d="M5.564 8.002L13.022.13c.061-.065.153-.13.245-.13s.153.065.214.13l2.293 2.43a.3.3 0 0 1 .122.259c0 .064-.03.162-.122.226L5.564 13.9a.27.27 0 0 1-.214.097.336.336 0 0 1-.245-.097L.122 8.586A.3.3 0 0 1 0 8.326c0-.097.03-.162.122-.226l2.293-2.43a.261.261 0 0 1 .214-.13c.092 0 .183.033.244.13l2.232 2.332a.336.336 0 0 0 .245.098.27.27 0 0 0 .214-.098z"></path>
-     </svg> </i> <span class="c-checkbox__description"> 
-     <!-- --> Only one way</span> </label>
-   </div>
-  </div>
-  <div class="o-searchbox__item o-searchbox__item--passenger">
-   <div class="c-field qa-field--passenger">
-    <div class="c-field__container ">
-     <div class="c-field__item qa-field__item--passengers">
-      <label class="c-field__input">
-      <span class="c-field__highlight"> <svg class="i-passenger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
-      <path class="i-passenger__content" fill-rule="evenodd" d="M12 12H0v-1.43L4 8V7c-.711 0-1-1.472-1-2V3c0-.826.293-1.533.88-2.12A2.888 2.888 0 0 1 6 0a2.89 2.89 0 0 1 2.12.88A2.89 2.89 0 0 1 9 3v2c0 .414-.303 2-1 2v1l4 2.57V12z"></path>
-      </svg> </span>
-      <div class="c-field__content"><span class="c-field__label">Passengers</span>
-       <input type="text" class="drop-text c-field__input-text qa-field__input--passengers" id="PASSENGERS" placeholder="Passengers" name="PASSENGERS" value="0 Adults, 0 Children" readonly>
-      </div>
-      </label>
-      <div class="c-field__validation"><span class="c-field__error"></span></div>
-     </div>
-     <div class="t-click-outside">
-      <div class="c-field__dropdown">
-       <div class="o-dropdown qa-dropdown--passenger">
-        <div class="o-dropdown__container">
-         <div class="o-dropdown__item">
-          <div class="o-input-list">
-           <div class="o-input-list__container">
-            <div class="o-input-list__item"><span class="o-input-list__title">Adults</span><span class="o-input-list__description">12+ years</span></div>
-            <div class="o-input-list__item">
-             <div class="c-addon-group">
-                <a class="c-addon-group__button qa-button--remove-adults qa-passengers" data-id="PASSENGERS" data-target="minus" data-ref="adults" href="#">
-                  <svg class="i-minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 6">
-                    <path class="i-minus__content" d="M.92 0h14.2c.26 0 .46.1.63.3.17.18.25.4.25.65v3.67c0 .26-.08.48-.25.65a.86.86 0 0 1-.63.26H.93c-.25 0-.46-.1-.63-.26-.22-.17-.3-.4-.3-.65V.95C0 .7.08.48.3.3.45.1.66 0 .9 0z"></path>
-                  </svg>
-                </a>
-              <input class="c-addon-group__input" value="0" id="adults">
-              <a class="c-addon-group__button qa-button--add-adults qa-passengers" href="#" data-id="PASSENGERS" data-target="plus" data-ref="adults" href="#">
-                <svg class="i-plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                  <path class="i-plus__content" d="M6.3 0h2.77c.2 0 .36.07.5.2.16.13.22.3.22.5v4.95h4.87c.2 0 .36.06.5.23.12.13.2.3.2.5V9.2c0 .2-.08.36-.2.5-.14.13-.3.2-.5.2H9.8v4.98c0 .2-.07.36-.24.5-.13.13-.3.2-.5.2H6.3a.686.686 0 0 1-.7-.7V9.9H.7a.686.686 0 0 1-.7-.7V6.38c0-.2.07-.37.2-.5.13-.17.3-.23.5-.23h4.9V.7a.686.686 0 0 1 .7-.7z"></path>
-                </svg>
-              </a>
-            </div>
-            </div>
-           </div>
-           <div class="o-input-list__container">
-            <div class="o-input-list__item"><span class="o-input-list__title">Children</span><span class="o-input-list__description">2-12 years</span></div>
-            <div class="o-input-list__item">
-             <div class="c-addon-group">
-               <a class="c-addon-group__button qa-button--remove-children qa-passengers" data-id="PASSENGERS" data-target="minus" data-ref="children" href="#">
-                 <svg class="i-minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 6">
-              <path class="i-minus__content" d="M.92 0h14.2c.26 0 .46.1.63.3.17.18.25.4.25.65v3.67c0 .26-.08.48-.25.65a.86.86 0 0 1-.63.26H.93c-.25 0-.46-.1-.63-.26-.22-.17-.3-.4-.3-.65V.95C0 .7.08.48.3.3.45.1.66 0 .9 0z"></path>
-              </svg></a>
-              <input class="c-addon-group__input" value="0"  id="children">
-              <a class="c-addon-group__button qa-button--add-children qa-passengers" href="#" data-id="PASSENGERS" data-target="plus" data-ref="children">
-                <svg class="i-plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-              <path class="i-plus__content" d="M6.3 0h2.77c.2 0 .36.07.5.2.16.13.22.3.22.5v4.95h4.87c.2 0 .36.06.5.23.12.13.2.3.2.5V9.2c0 .2-.08.36-.2.5-.14.13-.3.2-.5.2H9.8v4.98c0 .2-.07.36-.24.5-.13.13-.3.2-.5.2H6.3a.686.686 0 0 1-.7-.7V9.9H.7a.686.686 0 0 1-.7-.7V6.38c0-.2.07-.37.2-.5.13-.17.3-.23.5-.23h4.9V.7a.686.686 0 0 1 .7-.7z"></path>
-              </svg></a></div>
-            </div>
-           </div>
-           <div class="o-input-list__container">
-            <div class="o-input-list__item"><span class="o-input-list__title">Infants</span><span class="o-input-list__description">Under 2 years</span></div>
-            <div class="o-input-list__item">
-             <div class="c-addon-group">
-               <a class="c-addon-group__button qa-button--remove-infants qa-passengers" href="#" data-id="PASSENGERS" data-target="minus" data-ref="infant">
-                 <svg class="i-minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 6">
-                  <path class="i-minus__content" d="M.92 0h14.2c.26 0 .46.1.63.3.17.18.25.4.25.65v3.67c0 .26-.08.48-.25.65a.86.86 0 0 1-.63.26H.93c-.25 0-.46-.1-.63-.26-.22-.17-.3-.4-.3-.65V.95C0 .7.08.48.3.3.45.1.66 0 .9 0z"></path>
-                  </svg>
-               </a>
-              <input class="c-addon-group__input" value="0"  id="infant">
-              <a class="c-addon-group__button qa-button--add-infants qa-passengers" href="#" data-id="PASSENGERS" data-target="plus" data-ref="infant">
-                <svg class="i-plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-              <path class="i-plus__content" d="M6.3 0h2.77c.2 0 .36.07.5.2.16.13.22.3.22.5v4.95h4.87c.2 0 .36.06.5.23.12.13.2.3.2.5V9.2c0 .2-.08.36-.2.5-.14.13-.3.2-.5.2H9.8v4.98c0 .2-.07.36-.24.5-.13.13-.3.2-.5.2H6.3a.686.686 0 0 1-.7-.7V9.9H.7a.686.686 0 0 1-.7-.7V6.38c0-.2.07-.37.2-.5.13-.17.3-.23.5-.23h4.9V.7a.686.686 0 0 1 .7-.7z"></path>
-              </svg></a></div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
-  <div class="o-searchbox__item o-searchbox__item--cta">
-   <div class="c-button c-button--primary">
-    <button type="button" class="c-button__container qa-button--continue" id="search-continue" title="{translations['search-box.search_box_continue_button']}"><span class="c-button__text">continue</span></button>
-    <button type="submit" class="c-button__container qa-button--search" id="search-transfers"><span class="c-button__text">search</span></button>
-   </div>
-  </div>
-  <!--  -->
-  
- </form>
-</div>
-<!-- Form area end  --> 
-
-<!-- New Form Start -->
-<div class="container test">
-  <form action="#">
-    <div class="row">
-      <div class="col-md-12">         
-        <span class="custom-control custom-radio">
-          <input type="radio" class="custom-control-input" id="FromAirport" name="defaultExampleRadios">
-          <label class="custom-control-label" for="FromAirport">From the airport</label>
-        </span>
-        <span class="custom-control custom-radio">
-          <input type="radio" class="custom-control-input" id="ToAirport" name="defaultExampleRadios">
-          <label class="custom-control-label" for="ToAirport">From the airport</label>
-        </span>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6 ">
-        <div class="input-group mb-3 fitter" data-value="Which airport are you arriving at?">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="">
-              <img src="assets/img/svg/arrival.svg" width="24" height="24" alt="">
-            </span>
-          </div>
-          <input type="text" class="form-control" placeholder="Placeholder">
-        </div>
-      </div>
-      <div class="col-md-6 ">
-        <div class="input-group mb-3 fitter" data-value="Where do you want to go?">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="">
-              <img src="assets/img/svg/location.svg" width="24" height="24" alt="">
-            </span>
-          </div>
-          <input type="text" class="form-control" placeholder="Placeholder">
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col-sm-8">
-            <div class="input-group mb-3 fitter" data-value="When does your flight arrive?">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="">
-                  <img src="assets/img/svg/arrive-date.svg" width="24" height="24" alt="">
-                </span>
-              </div>
-              <input type="text" class="form-control" placeholder="Placeholder">
-            </div>
-          </div>
-          <div class="col-sm-4">
-              <div class="input-group mb-3 fitter" data-value="Time">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="">
-                    <img src="assets/img/svg/clock-circular-outline.svg" width="24" height="24" alt="">
-                  </span>
-                </div>
-                <input type="text" class="form-control" placeholder="Placeholder">
-              </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col-sm-8">
-            <div class="input-group mb-3 fitter" data-value="When does your flight depart?">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="">
-                  <img src="assets/img/svg/depart-date.svg" width="24" height="24" alt="">
-                </span>
-              </div>
-              <input type="text" class="form-control" placeholder="Placeholder">
-            </div>
-          </div>
-          <div class="col-sm-4">
-              <div class="input-group mb-3 fitter" data-value="Time">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="">
-                    <img src="assets/img/svg/clock-circular-outline.svg" width="24" height="24" alt="">
-                  </span>
-                </div>
-                <input type="text" class="form-control" placeholder="Placeholder">
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="input-group mb-3 fitter" data-value="Passengers">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="">
-              <img src="assets/img/svg/passinger.svg" width="24" height="24" alt="">
-            </span>
-          </div>
-          <input type="text" class="form-control" placeholder="Placeholder">
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <button type="submit" class="btn btn-rounded btn-lg btn-block btn-success">Success</button>
-      </div>
-    </div>
-
-  </form>
-</div>
-
-<br /><br /><br /><br />
-
-<div class="container extra-assets">
-  <div class="row">
-    <div class="col-sm-6">
-      <!-- boxer start -->
-      <div class="boxer">
-        
-        <ul class="nav nav-tabs filter-tab" id="resulTab">
-          <li class="active">
-            <a data-toggle="tab" href="#Airports"> 
-              <i><img src="assets/img/svg/airport.svg" width="14" height="14" alt=""></i> Airports</a></li>
-          <li><a data-toggle="tab" href="#Ports">
-            <i><img src="assets/img/svg/port.svg" width="14" height="14" alt=""></i> Ports</a></li>
-          <li>
-            <a data-toggle="tab" href="#TrainStations"> 
-              <i><img src="assets/img/svg/train.svg" width="14" height="14" alt=""></i> Train Stations</a></li>
-        </ul>
-
-        <div class="tab-content filter-tab-content">
-          <div id="Airports" class="tab-pane fade in active">
-            <h3>Choose from over 38,000 routes worldwide</h3>
-            <b>MOST RELEVANT AIRPORTS</b>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fuga sint voluptatem ea repellat blanditiis molestiae omnis, delectus vero vel nam ducimus autem hic veniam iure unde enim sequi accusamus.</p>
-            
-          </div>
-          <div id="Ports" class="tab-pane fade">
-            <h3>Choose from over 38,000 routes worldwide</h3>
-            <b>MOST RELEVANT PORTS</b>
-            <p>Modi est ex ea aspernatur architecto beatae minus accusamus labore laboriosam inventore, amet harum ut ducimus dolore aut deserunt, culpa ratione recusandae hic odio consequuntur numquam ipsum. Quos, ipsam, blanditiis.</p>
-          </div>
-          <div id="TrainStations" class="tab-pane fade">
-            <h3>Choose from over 38,000 routes worldwide</h3>
-            <b>MOST RELEVANT TRAIN STATIONS</b>
-            <p>Quisquam corrupti recusandae sint voluptatibus unde esse quos dolor pariatur nulla fugiat facere dolores, quas beatae alias mollitia quibusdam consequatur! Tempora tenetur atque est quibusdam assumenda, reprehenderit dolore eius. Velit?</p>
-          </div>
-        </div>
-
-      </div>
-      <!-- boxer end -->
-    </div>
-    <div class="col-sm-3">
-      <div class="boxer">
-        <div class="o-input-list">
-          
-          <!-- Adult -->
-          <div class="o-input-list__container">
-            <div class="o-input-list__item"><span class="o-input-list__title">Adults</span><span class="o-input-list__description">12+ years</span></div>
-            <div class="o-input-list__item">
-             <div class="c-addon-group">
-                <a class="c-addon-group__button" data-id="" href="#">
-                  <img src="assets/img/svg/minus.svg" alt="">
-                </a>
-              <input class="c-addon-group__input" value="0" id="">
-              <a class="c-addon-group__button" href="#">
-                <img src="assets/img/svg/plus.svg" alt="">
-              </a>
-            </div>
-            </div>
-           </div>
-
-          <!-- Children -->
-          <div class="o-input-list__container">
-            <div class="o-input-list__item"><span class="o-input-list__title">Children</span><span class="o-input-list__description">2-12 years</span></div>
-            <div class="o-input-list__item">
-             <div class="c-addon-group">
-                <a class="c-addon-group__button" data-id="" href="#">
-                  <img src="assets/img/svg/minus.svg" alt="">
-                </a>
-              <input class="c-addon-group__input" value="0" id="">
-              <a class="c-addon-group__button" href="#">
-                <img src="assets/img/svg/plus.svg" alt="">
-              </a>
-            </div>
-            </div>
-           </div>
-
-           <!-- Infants -->
-          <div class="o-input-list__container">
-            <div class="o-input-list__item"><span class="o-input-list__title">Infants</span><span class="o-input-list__description">Under 2 years</span></div>
-            <div class="o-input-list__item">
-             <div class="c-addon-group">
-                <a class="c-addon-group__button" data-id="" href="#">
-                  <img src="assets/img/svg/minus.svg" alt="">
-                </a>
-              <input class="c-addon-group__input" value="0" id="">
-              <a class="c-addon-group__button" href="#">
-                <img src="assets/img/svg/plus.svg" alt="">
-              </a>
-            </div>
-            </div>
-           </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="boxer">
-      
-<div class="o-select-wrapper">
-           <div class="o-select-wrapper__container">
-            <div class="c-select">
-             <select id="qa-select--outward-hours-id" data-ref="arrive-hr" data-toggle="hr" data-id="OUTWARD_TIME" class="time-change-hr c-select__item qa-select--outward-hours">
-              <option value=""> Hr</option>
-              <option value="00">00</option>
-              <option value="01">01</option>
-              <option value="02">02</option>
-              <option value="03">03</option>
-              <option value="04">04</option>
-              <option value="05">05</option>
-              <option value="06">06</option>
-              <option value="07">07</option>
-              <option value="08">08</option>
-              <option value="09">09</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-             </select>
-             <i class="c-select__caret"> <svg class="i-chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10">
-             <path class="i-chevron-down__content" d="M15.64.56C15.47.3 15.2.2 14.84.2c-.62 0-1.25.54-1.5.82L8 6.64 2.76 1.02c-.18-.28-.63-.9-1.25-1-.45-.1-.8.1-.97.3C0 .73-.27 1.57.36 2.56l6.56 6.97c.4.25.73.46.98.46.38 0 .73-.2 1-.46L15.12 3c.62-.7 1.32-1.63.52-2.44z"></path>
-             </svg></i> </div>
-           </div>
-           <div class="o-select-wrapper__container">
-            <div class="c-select">
-             <select id="qa-select--outward-minutes-id" data-ref="arrive-min" data-toggle="min" data-id="OUTWARD_TIME" class="time-change-min c-select__item qa-select--outward-minutes">
-              <option value=""> Min</option>
-              <option value="00">00</option>
-              <option value="05">05</option>
-              <option value="10">10</option>
-              <option value="15">15</option>
-              <option value="20">20</option>
-              <option value="25">25</option>
-              <option value="30">30</option>
-              <option value="35">35</option>
-              <option value="40">40</option>
-              <option value="45">45</option>
-              <option value="50">50</option>
-              <option value="55">55</option>
-             </select>
-             <i class="c-select__caret"><svg class="i-chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10">
-             <path class="i-chevron-down__content" d="M15.64.56C15.47.3 15.2.2 14.84.2c-.62 0-1.25.54-1.5.82L8 6.64 2.76 1.02c-.18-.28-.63-.9-1.25-1-.45-.1-.8.1-.97.3C0 .73-.27 1.57.36 2.56l6.56 6.97c.4.25.73.46.98.46.38 0 .73-.2 1-.46L15.12 3c.62-.7 1.32-1.63.52-2.44z"></path>
-             </svg></i> </div>
-           </div>
-          </div>
-
-      </div>
-    </div>
-
-
-
-
-  </div>
-
-</div>
-
-
-<!-- New Form End -->
-
-<!-- about area start  -->
-<section class="about-area">
- <div class="container">
-  <div class="row">
-   <div class="col-lg-6">
-    <div class="left-content-area"> <img src="assets/img/about-us-image.jpg" alt="about us image"> </div>
-   </div>
-   <div class="col-lg-6 remove-col-padding">
-    <div class="right-content-area"> 
-     <!-- right content area -->
-     <h3>Creative Aviation <br>
-      Make Your Life More Effective And Profitable</h3>
-     <p>We are a multicultural and customer centric trip support company that is always striving for excellence in the services we provide. Our testament that we will never tire in serving our clients around the clock is our team’s creed
-      and is instilled in our core values.</p>
-     <p>We are one of the few companies that can truly offer worldwide trip support services with the highest service standards, is ISO certified and cost efficient, and will effectively allow you to save valuable time and resources.</p>
-    </div>
-    <!-- /.right content area --> 
-   </div>
-  </div>
-  <!-- /.row --> 
- </div>
- <!-- /.container  --> 
-</section>
-<!-- about area end  --> 
-
-<!-- our service area start -->
-<section class="service-area">
- <div class="service-area-top"> 
-  <!-- service area top -->
-  <div class="container">
-   <div class="row justify-content-center">
-    <div class="col-lg-10 text-center">
-     <div class="section-title"> 
-      <!-- section title -->
-      <h2 class="c-white">London Airport Transfer Services</h2>
-      <p>We take pride in prompt and reliable airport transfers, taxi and minicab services to and from Heathrow, Gatwick, Stansted, Luton and London City Airport in the time that suits your schedule. We know how important a smooth and comfortable journey is to our customers; <!-- which is why we offer additional services, including free flight monitoring and waiting time of up to 50 minutes. What does this mean? It means you'll find your driver waiting at the airport's information disk carrying a sign with your name on it. Expect the driver to be fully-licensed, professionally-trained and willing to help you out with your every need. --></p>
-      
-      <!-- <p>In addition to this, we provide a myriad of other services, including transfers and private hire taxi services to postcodes, hotels, seaports and stations in and around the capital or anywhere else in the UK. We ensure that all our drivers are professionally-minded, helpful and well-mannered. The most important thing will always be customer satisfaction, which is why we strive to provide the very best in safe, comfortable and high quality but cheap transport and airport transfers within London.</p> --> 
-     </div>
-     <!-- /.section title --> 
-    </div>
-   </div>
-   <!-- /.row --> 
-  </div>
-  <!-- //.container --> 
- </div>
- <!-- //.service area top -->
- <div class="service-area-bottom"> 
-  <!-- service area bottom -->
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-12 remove-col-padding">
-     <div class="service-bottom-inner"> 
-      <!-- service bottom inner -->
-      <div class="row">
-       <div class="col-md-6 col-lg-3">
-        <div class="single-service-box"> 
-         <!-- single service box -->
-         <div class="icon"> <i class="flaticon-car-compact"></i> </div>
-         <div class="content"> 
-          <!-- content -->
-          <h4>Free Child Seats</h4>
-          <p>Child seats come completely free of charge during all airport transfers in London. We offer families a wide range of seats suitable for children of all ages; booster seats included. This is sure to save you a lot of bother...</p>
-         </div>
-         <!-- //.content --> 
-        </div>
-        <!-- //. single service box --> 
-       </div>
-       <div class="col-md-6 col-lg-3">
-        <div class="single-service-box"> 
-         <!-- single service box -->
-         <div class="icon"> <i class="far fa-car"></i> </div>
-         <div class="content"> 
-          <!-- content -->
-          <h4>Our Drivers</h4>
-          <p> You can feel safe in the hands of our drivers. Each chauffer that we recruit is well-presented, CRB checked, assessed by the Institute of Advance Motorists in advance and defensive driving...</p>
-         </div>
-         <!-- //.content --> 
-        </div>
-        <!-- //. single service box --> 
-       </div>
-       <div class="col-md-6 col-lg-3">
-        <div class="single-service-box"> 
-         <!-- single service box -->
-         <div class="icon"> <i class="far fa-taxi"></i> </div>
-         <div class="content"> 
-          <!-- content -->
-          <h4>Flight Monitoring</h4>
-          <p> How will this work if your flight gets delayed? Our totally free flight monitoring services will ensure that we know exactly when the wheels touch down. We will personally monitor your flight and progress...</p>
-         </div>
-         <!-- //.content --> 
-        </div>
-        <!-- //. single service box --> 
-       </div>
-       <div class="col-md-6 col-lg-3">
-        <div class="single-service-box"> 
-         <!-- single service box -->
-         <div class="icon"> <i class="far fa-car"></i> </div>
-         <div class="content"> 
-          <!-- content -->
-          <h4>Meet & Greet</h4>
-          <p>There is nothing more important than arriving at your destination with a warm welcome. Our drivers will meet you right outside the expected terminal with a board displaying your name and the...</p>
-         </div>
-         <!-- //.content --> 
-        </div>
-        <!-- //. single service box --> 
-       </div>
-      </div>
-      <!-- //.row --> 
-     </div>
-     <!-- //.service bottom iner --> 
-    </div>
-   </div>
-   <!-- //.row --> 
-  </div>
-  <!-- //.container --> 
- </div>
- <!-- //.service area bottom --> 
-</section>
-<!-- our service area end --> 
-
-<!-- brand logo area start -->
-    <div class="brand-logo-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="brand-carousel" id="brand-carousel">
-                        <div class="single-brand-logo">
-                            <center>
-                              <img src="assets/img/brands/01.png" alt="brangs logo">
-                              <strong class="m-media-simple__title">Express Shuttle</strong>
-                              <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
-                            </center>
-                        </div>
-                        <div class="single-brand-logo">
-                            <center>
-                              <img src="assets/img/brands/02.png" alt="brangs logo">
-                              <strong class="m-media-simple__title">Express Shuttle</strong>
-                              <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
-                            </center>
-                        </div>
-                        <div class="single-brand-logo">
-                            <center>
-                              <img src="assets/img/brands/04.png" alt="brangs logo">
-                              <strong class="m-media-simple__title">Express Shuttle</strong>
-                              <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
-                            </center>
-                        </div>
-                        <div class="single-brand-logo">
-                            <center>
-                              <img src="assets/img/brands/05.png" alt="brangs logo">
-                              <strong class="m-media-simple__title">Express Shuttle</strong>
-                              <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
-                            </center>
-                        </div>
-                        <div class="single-brand-logo">
-                            <center>
-                              <img src="assets/img/brands/03.png" alt="brangs logo">
-                              <strong class="m-media-simple__title">Express Shuttle</strong>
-                              <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
-                            </center>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- //.row -->
-        </div>
-        <!-- //.container -->
-    </div>
-    <!-- brand logo area end -->
-
-    <!-- flight schedule page content area start     -->
-    <div class="flight-schedule-content-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="flight-schedule-content-inner">
-                        <table class="table table-responsive">
-                            <thead>
-                                <!-- thead -->
-                                <tr>
-                                    <th scope="col">Location</th>
-                                    <th scope="col">Fare</th>
-                                </tr>
-                            </thead>
-                            <!-- //.thead -->
-                            <tbody>
-                                <!-- tbody -->
-                                <tr>
-                                    <td data-label="title">Alicante airport (ALC)</td>
-                                    <td data-label="fare">
-                                      <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">2.74€</span></span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="title">Barcelona airport (BCN)</td>
-                                    <td data-label="fare">
-                                      <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.68€</span></span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="title">Faro airport (FAO)</td>
-                                    <td data-label="fare">
-                                      <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight"> 1.50€</span></span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="title">Gran Canaria airport (LPA)</td>
-                                    <td data-label="fare">
-                                      <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">1.66€</span></span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="title">Lisbon airport (LIS)</td>
-                                    <td data-label="fare">
-                                      <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.29€</span></span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="title">Malaga airport (AGP)</td>
-                                    <td data-label="fare">
-                                      <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.30€</span></span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="title">Mallorca airport (PMI)</td>
-                                    <td data-label="fare">
-                                      <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.35€</span></span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="title">Paris Charles de Gaulle airport (CDG)</td>
-                                    <td data-label="fare">
-                                      <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">1.10€</span></span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td data-label="title">Tenerife South airport (TFS)</td>
-                                    <td data-label="fare">
-                                      <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.83€</span></span>
-                                    </td>
-                                </tr>
-                            </tbody>
-                            <!-- //.tbody -->
-                        </table>
-
-                        <p class="text-right">
-                          <a href="#">See all airports, stations and ports by country</a>
-                        </p>
-                    </div>
-                </div>
-                <!-- //.col-lg-12 -->
-            </div>
-            <!-- //.row -->
-        </div>
-        <!-- //.container -->
-    </div>
-    <!-- flight schedule page content area end -->
-
-    <!-- pricing page call to action area start -->
-    <section class="pricing-page-call-to-action bg-red">
-        <div class="container">
-            <div class="row inspect">
-                <div class="col-md-12">
-                    <span class="subtitle">Why book your transfers with London Airport Transfers.com?</span>
-                    <div class="row">
-                      <div class="col-sm-4">
-                        <h2>Great value</h2>
-                        <p>Low, low prices without sacrificing great service. No charges apply to debit or credit card payments.
-                        </p>
-                      </div>
-                      <div class="col-sm-4">
-                        <h2>Easy & flexible booking</h2>
-                        <p>Booking online is easy and only takes 5 minutes. Changes and cancellations are free of charge up to 48 hours before the transfer.
-                        </p>
-                      </div>
-                      <div class="col-sm-4">
-                        <h2>24/7 customer service</h2>
-                        <p>Our office is staffed 24 hours a day, 365 days a year - we're always here to help you.</p>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- pricing page call to action area end -->
-
-    
-
- <!-- teastimonal area start -->
-    <section class="testimonial-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-inner">
-                        <!-- section title inner -->
-                        <h2 class="title">Testimonials</h2>
-                        <span class="subtitle">4.5/5 Customer Satisfaction with over 14,235</span>
-                    </div>
-                    <!-- //.section title inner-->
-                    <div class="testimonial-wrapper" id="testimonial-carousel">
-                        <!-- tesimonial wrapper -->
-                        <div class="single-testimonial-item">
-                            <!-- single testimonial item -->
-                            <div class="descripton">
-                                <ul class="ratigs">
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-                                    opposed to using 'Content here.
-                                </p>
-                            </div>
-                            <div class="clients-details">
-                                <div class="thumb">
-                                    <img src="assets/img/testimonial/01.png" alt="tesimonial image">
-                                </div>
-                                <div class="content">
-                                    <h4 class="title">William Hannah</h4>
-                                    <span class="post">Founder </span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- //.single testimonial item -->
-                        <div class="single-testimonial-item">
-                            <!-- single testimonial item -->
-                            <div class="descripton">
-                                <ul class="ratigs">
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fas fa-star"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-                                    opposed to using 'Content here.
-                                </p>
-                            </div>
-                            <div class="clients-details">
-                                <div class="thumb">
-                                    <img src="assets/img/testimonial/01.png" alt="tesimonial image">
-                                </div>
-                                <div class="content">
-                                    <h4 class="title">Hannah William</h4>
-                                    <span class="post">CEO </span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- //.single testimonial item -->
-                    </div>
-                    <!-- //.tesimonial wrapper -->
-
-                  </div>
-                </div>
-              </div></section>
-
-            <div class="card-box">
-              <div class="container">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page Title</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <!-- flaticon -->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <!-- <link rel="stylesheet" href="assets/css/jquery.datepick.css"> -->
+        <!-- bootstrap datetime picker -->
+        <!-- <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css"> -->
+        <!-- animate.css -->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- responsive -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/pikaday.css">
+    </head>
+    <body>
+        <!-- support bar area start  -->
+        <section class="support-bar-area">
+            <div class="container">
                 <div class="row">
-                  <div class="col-2">
-                    <img src="assets/img/visa.png" alt="">
-                  </div>
-                  <div class="col-2">
-                    <img src="assets/img/thawte.png" alt="">
-                  </div>
-                  <div class="col-2">
-                    <img src="assets/img/trustwave.png" alt="">
-                  </div>
-                  <div class="col-2">
-                    <img src="assets/img/travel.png" alt="">
-                  </div>
-                  <div class="col-2">
-                    <img src="assets/img/paypal.png" alt="">
-                  </div>
-                  <div class="col-2">
-                    <img src="assets/img/mastercard.png" alt="">
-                  </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <a href="index.html" class="logo">
+                            <h3>Logo Name</h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-9 col-sm-12">
+                        <div class="support-bar-content">
+                            <!-- support bar content -->
+                            <ul>
+                                <li>
+                                    <div class="single-support-item">
+                                        <!-- single support item -->
+                                        <div class="icon"> <i class="fas fa-check-square"></i> </div>
+                                        <div class="content">
+                                            <!-- content --> 
+                                            <span class="subtitle">Available Support</span>
+                                            <h5>24/7 Online Support</h5>
+                                        </div>
+                                        <!-- /.content --> 
+                                    </div>
+                                    <!-- /.single support item --> 
+                                </li>
+                                <li>
+                                    <div class="single-support-item">
+                                        <!-- single support item -->
+                                        <div class="icon"> <i class="fas fa-clock"></i> </div>
+                                        <div class="content">
+                                            <!-- content --> 
+                                            <span class="subtitle">Working Time</span>
+                                            <h5>8:00AM - 12:00PM</h5>
+                                        </div>
+                                        <!-- /.content --> 
+                                    </div>
+                                    <!-- /.single support item --> 
+                                </li>
+                                <li>
+                                    <div class="single-support-item">
+                                        <!-- single support item -->
+                                        <div class="icon"> <i class="fas fa-envelope"></i> </div>
+                                        <div class="content">
+                                            <!-- content --> 
+                                            <span class="subtitle">Get In Touch</span> 
+                                            <a href="mailTo:Info@gmail.com">
+                                                <h5>Info@gmail.com</h5>
+                                            </a>
+                                        </div>
+                                        <!-- /.content --> 
+                                    </div>
+                                    <!-- /.single support item --> 
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.support bar content --> 
+                    </div>
                 </div>
-              </div>
+                <!-- /.row --> 
             </div>
-
-            <div class="top-footer">
-              <div class="sub-footer">
+            <!-- /.container --> 
+        </section>
+        <!-- support bar area end  --> 
+        <!-- navbar area start -->
+        <nav class="navbar navbar-area navbar-expand-lg navbar-light ">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="homeNav">
+                    <!-- navbar collapse start -->
+                    <ul class="navbar-nav">
+                        <!-- navbar- nav -->
+                        <li class="nav-item"> <a class="nav-link pl-0" href="index.html">Home <span class="sr-only">(current)</span> </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="about.html">About Us</a> </li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Reviews</a> </li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Blog</a> </li>
+                        <li class="nav-item"> <a href="#" class="nav-link">FAQ's</a> </li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Sitemap</a> </li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Contact Us</a> </li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Login</a> </li>
+                    </ul>
+                    <!-- /.navbar-nav --> 
+                </div>
+                <div class="navbar-btn-wrapper">
+                    <!-- navbar btn wrapper --> 
+                    <a href="#" class="boxed-btn btn-rounded">Get Quotation</a> 
+                </div>
+                <!-- /.navbar btn wrapper -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#homeNav" aria-controls="homeNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <!-- navbar collapse end --> 
+            </div>
+        </nav>
+        <!-- navbar area end --> 
+        <!-- New Form Start -->
+        <div class="container test">
+            <form action="#">
+                <div class="row">
+                    <div class="col-md-12">         
+                        <span class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="FromAirport" name="defaultExampleRadios">
+                        <label class="custom-control-label" for="FromAirport">From the airport</label>
+                        </span>
+                        <span class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="ToAirport" name="defaultExampleRadios">
+                        <label class="custom-control-label" for="ToAirport">From the airport</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="input-group mb-3 fitter" data-value="Which airport are you arriving at?">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="">
+                                <img src="assets/img/svg/arrival.svg" width="24" height="24" alt="">
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Placeholder">
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="input-group mb-3 fitter" data-value="Where do you want to go?">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="">
+                                <img src="assets/img/svg/location.svg" width="24" height="24" alt="">
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Placeholder">
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="input-group mb-3 fitter" data-value="When does your flight arrive?">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="">
+                                        <img src="assets/img/svg/arrive-date.svg" width="24" height="24" alt="">
+                                        </span>
+                                    </div>
+                                    <input type="text" class="datepicker form-control" placeholder="Placeholder">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                              <div class="input-group mb-3 fitter" data-value="Time">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="">
+                                    <img src="assets/img/svg/clock-circular-outline.svg" width="24" height="24" alt="">
+                                    </span>
+                                </div>
+                                <input type="text" class="drop-text form-control" id="OUTWARD_TIME" placeholder="Placeholder">
+                              </div>                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="input-group mb-3 fitter" data-value="When does your flight depart?">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="">
+                                        <img src="assets/img/svg/depart-date.svg" width="24" height="24" alt="">
+                                        </span>
+                                    </div>
+                                    <input type="text" class="datepicker form-control" placeholder="Placeholder">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="input-group mb-3 fitter" data-value="Time">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="">
+                                        <img src="assets/img/svg/clock-circular-outline.svg" width="24" height="24" alt="">
+                                        </span>
+                                    </div>
+                                    <input type="text" class="drop-text form-control" placeholder="Placeholder">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="input-group mb-3 fitter" data-value="Passengers">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="">
+                                <img src="assets/img/svg/passinger.svg" width="24" height="24" alt="">
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Placeholder">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <button type="submit" class="btn btn-rounded btn-lg btn-block btn-success">Success</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br /><br /><br /><br />
+        
+        <!-- New Form End -->
+        <!-- about area start  -->
+        <section class="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="left-content-area"> <img src="assets/img/about-us-image.jpg" alt="about us image"> </div>
+                    </div>
+                    <div class="col-lg-6 remove-col-padding">
+                        <div class="right-content-area">
+                            <!-- right content area -->
+                            <h3>Creative Aviation <br>
+                                Make Your Life More Effective And Profitable
+                            </h3>
+                            <p>We are a multicultural and customer centric trip support company that is always striving for excellence in the services we provide. Our testament that we will never tire in serving our clients around the clock is our team’s creed
+                                and is instilled in our core values.
+                            </p>
+                            <p>We are one of the few companies that can truly offer worldwide trip support services with the highest service standards, is ISO certified and cost efficient, and will effectively allow you to save valuable time and resources.</p>
+                        </div>
+                        <!-- /.right content area --> 
+                    </div>
+                </div>
+                <!-- /.row --> 
+            </div>
+            <!-- /.container  --> 
+        </section>
+        <!-- about area end  --> 
+        <!-- our service area start -->
+        <section class="service-area">
+            <div class="service-area-top">
+                <!-- service area top -->
                 <div class="container">
-                  <div class="row">
-                    <h2 class="title">Popular airports worldwide</h2>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-3">
-                      <div class="">
-                        <a class="" href="#" title="Alicante airport">Alicante airport</a>
-                        <a class="" href="#" title="Amsterdam airport">Amsterdam airport</a>
-                        <a class="" href="#" title="Antalya airport">Antalya airport</a>
-                        <a class="" href="#" title="Bali Denpasar International airport">Bali Denpasar International airport</a>
-                        <a class="" href="#" title="Barcelona airport">Barcelona airport</a>
-                        <a class="" href="#" title="Budapest airport">Budapest airport</a>
-                        <a class="" href="#" title="Dalaman airport">Dalaman airport</a>
-                      </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 text-center">
+                            <div class="section-title">
+                                <!-- section title -->
+                                <h2 class="c-white">London Airport Transfer Services</h2>
+                                <p>
+                                    We take pride in prompt and reliable airport transfers, taxi and minicab services to and from Heathrow, Gatwick, Stansted, Luton and London City Airport in the time that suits your schedule. We know how important a smooth and comfortable journey is to our customers; <!-- which is why we offer additional services, including free flight monitoring and waiting time of up to 50 minutes. What does this mean? It means you'll find your driver waiting at the airport's information disk carrying a sign with your name on it. Expect the driver to be fully-licensed, professionally-trained and willing to help you out with your every need. -->
+                                </p>
+                                <!-- <p>In addition to this, we provide a myriad of other services, including transfers and private hire taxi services to postcodes, hotels, seaports and stations in and around the capital or anywhere else in the UK. We ensure that all our drivers are professionally-minded, helpful and well-mannered. The most important thing will always be customer satisfaction, which is why we strive to provide the very best in safe, comfortable and high quality but cheap transport and airport transfers within London.</p> --> 
+                            </div>
+                            <!-- /.section title --> 
+                        </div>
                     </div>
-                    <div class="col-sm-3">
-                      <div class="">
-                        <a class="" href="#" title="Dubai International airport">Dubai International airport</a>
-                        <a class="" href="#" title="Dublin airport">Dublin airport</a>
-                        <a class="" href="#" title="Faro airport">Faro airport</a>
-                        <a class="" href="#" title="Fuerteventura airport">Fuerteventura airport</a>
-                        <a class="" href="#" title="Girona airport">Girona airport</a>
-                        <a class="" href="#" title="Gran Canaria airport">Gran Canaria airport</a>
-                        <a class="" href="#" title="Lanzarote airport">Lanzarote airport</a></div>
+                    <!-- /.row --> 
+                </div>
+                <!-- //.container --> 
+            </div>
+            <!-- //.service area top -->
+            <div class="service-area-bottom">
+                <!-- service area bottom -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 remove-col-padding">
+                            <div class="service-bottom-inner">
+                                <!-- service bottom inner -->
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="single-service-box">
+                                            <!-- single service box -->
+                                            <div class="icon"> <i class="flaticon-car-compact"></i> </div>
+                                            <div class="content">
+                                                <!-- content -->
+                                                <h4>Free Child Seats</h4>
+                                                <p>Child seats come completely free of charge during all airport transfers in London. We offer families a wide range of seats suitable for children of all ages; booster seats included. This is sure to save you a lot of bother...</p>
+                                            </div>
+                                            <!-- //.content --> 
+                                        </div>
+                                        <!-- //. single service box --> 
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="single-service-box">
+                                            <!-- single service box -->
+                                            <div class="icon"> <i class="far fa-car"></i> </div>
+                                            <div class="content">
+                                                <!-- content -->
+                                                <h4>Our Drivers</h4>
+                                                <p> You can feel safe in the hands of our drivers. Each chauffer that we recruit is well-presented, CRB checked, assessed by the Institute of Advance Motorists in advance and defensive driving...</p>
+                                            </div>
+                                            <!-- //.content --> 
+                                        </div>
+                                        <!-- //. single service box --> 
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="single-service-box">
+                                            <!-- single service box -->
+                                            <div class="icon"> <i class="far fa-taxi"></i> </div>
+                                            <div class="content">
+                                                <!-- content -->
+                                                <h4>Flight Monitoring</h4>
+                                                <p> How will this work if your flight gets delayed? Our totally free flight monitoring services will ensure that we know exactly when the wheels touch down. We will personally monitor your flight and progress...</p>
+                                            </div>
+                                            <!-- //.content --> 
+                                        </div>
+                                        <!-- //. single service box --> 
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="single-service-box">
+                                            <!-- single service box -->
+                                            <div class="icon"> <i class="far fa-car"></i> </div>
+                                            <div class="content">
+                                                <!-- content -->
+                                                <h4>Meet & Greet</h4>
+                                                <p>There is nothing more important than arriving at your destination with a warm welcome. Our drivers will meet you right outside the expected terminal with a board displaying your name and the...</p>
+                                            </div>
+                                            <!-- //.content --> 
+                                        </div>
+                                        <!-- //. single service box --> 
+                                    </div>
+                                </div>
+                                <!-- //.row --> 
+                            </div>
+                            <!-- //.service bottom iner --> 
+                        </div>
                     </div>
-                    <div class="col-sm-3">
-                      <div class="">
-                        <a class="" href="#" title="Lisbon airport">Lisbon airport</a>
-                        <a class="" href="#" title="Madrid airport">Madrid airport</a>
-                        <a class="" href="#" title="Malaga airport">Malaga airport</a>
-                        <a class="" href="#" title="Mallorca airport">Mallorca airport</a>
-                        <a class="" href="#" title="Malta airport">Malta airport</a>
-                        <a class="" href="#" title="Murcia airport">Murcia airport</a>
-                        <a class="" href="#" title="Nice airport">Nice airport</a></div>
+                    <!-- //.row --> 
+                </div>
+                <!-- //.container --> 
+            </div>
+            <!-- //.service area bottom --> 
+        </section>
+        <!-- our service area end --> 
+        <!-- brand logo area start -->
+        <div class="brand-logo-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brand-carousel" id="brand-carousel">
+                            <div class="single-brand-logo">
+                                <center>
+                                    <img src="assets/img/brands/01.png" alt="brangs logo">
+                                    <strong class="m-media-simple__title">Express Shuttle</strong>
+                                    <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
+                                </center>
+                            </div>
+                            <div class="single-brand-logo">
+                                <center>
+                                    <img src="assets/img/brands/02.png" alt="brangs logo">
+                                    <strong class="m-media-simple__title">Express Shuttle</strong>
+                                    <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
+                                </center>
+                            </div>
+                            <div class="single-brand-logo">
+                                <center>
+                                    <img src="assets/img/brands/04.png" alt="brangs logo">
+                                    <strong class="m-media-simple__title">Express Shuttle</strong>
+                                    <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
+                                </center>
+                            </div>
+                            <div class="single-brand-logo">
+                                <center>
+                                    <img src="assets/img/brands/05.png" alt="brangs logo">
+                                    <strong class="m-media-simple__title">Express Shuttle</strong>
+                                    <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
+                                </center>
+                            </div>
+                            <div class="single-brand-logo">
+                                <center>
+                                    <img src="assets/img/brands/03.png" alt="brangs logo">
+                                    <strong class="m-media-simple__title">Express Shuttle</strong>
+                                    <span class="m-media-simple__description">from <strong class="m-media-simple__highlight">3.48€</strong></span>
+                                </center>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-3">
-                      <div class="">
-                        <a class="" href="#" title="Paphos airport">Paphos airport</a>
-                        <a class="" href="#" title="Paris Charles de Gaulle airport">Paris Charles de Gaulle airport</a>
-                        <a class="" href="#" title="Prague airport">Prague airport</a>
-                        <a class="" href="#" title="Reus airport">Reus airport</a>
-                        <a class="" href="#" title="Rhodes airport">Rhodes airport</a>
-                        <a class="" href="#" title="Rome Fiumicino airport">Rome Fiumicino airport</a>
-                        <a class="" href="#" title="Tenerife South airport">Tenerife South airport</a>
-                      </div>
+                </div>
+                <!-- //.row -->
+            </div>
+            <!-- //.container -->
+        </div>
+        <!-- brand logo area end -->
+        <!-- flight schedule page content area start     -->
+        <div class="flight-schedule-content-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="flight-schedule-content-inner">
+                            <table class="table table-responsive">
+                                <thead>
+                                    <!-- thead -->
+                                    <tr>
+                                        <th scope="col">Location</th>
+                                        <th scope="col">Fare</th>
+                                    </tr>
+                                </thead>
+                                <!-- //.thead -->
+                                <tbody>
+                                    <!-- tbody -->
+                                    <tr>
+                                        <td data-label="title">Alicante airport (ALC)</td>
+                                        <td data-label="fare">
+                                            <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">2.74€</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="title">Barcelona airport (BCN)</td>
+                                        <td data-label="fare">
+                                            <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.68€</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="title">Faro airport (FAO)</td>
+                                        <td data-label="fare">
+                                            <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight"> 1.50€</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="title">Gran Canaria airport (LPA)</td>
+                                        <td data-label="fare">
+                                            <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">1.66€</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="title">Lisbon airport (LIS)</td>
+                                        <td data-label="fare">
+                                            <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.29€</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="title">Malaga airport (AGP)</td>
+                                        <td data-label="fare">
+                                            <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.30€</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="title">Mallorca airport (PMI)</td>
+                                        <td data-label="fare">
+                                            <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.35€</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="title">Paris Charles de Gaulle airport (CDG)</td>
+                                        <td data-label="fare">
+                                            <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">1.10€</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="title">Tenerife South airport (TFS)</td>
+                                        <td data-label="fare">
+                                            <span class="o-keel-grid__description">pp from <span class="o-keel-grid__highlight">3.83€</span></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <!-- //.tbody -->
+                            </table>
+                            <p class="text-right">
+                                <a href="#">See all airports, stations and ports by country</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- //.col-lg-12 -->
+                </div>
+                <!-- //.row -->
+            </div>
+            <!-- //.container -->
+        </div>
+        <!-- flight schedule page content area end -->
+        <!-- pricing page call to action area start -->
+        <section class="pricing-page-call-to-action bg-red">
+            <div class="container">
+                <div class="row inspect">
+                    <div class="col-md-12">
+                        <span class="subtitle">Why book your transfers with London Airport Transfers.com?</span>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h2>Great value</h2>
+                                <p>Low, low prices without sacrificing great service. No charges apply to debit or credit card payments.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <h2>Easy & flexible booking</h2>
+                                <p>Booking online is easy and only takes 5 minutes. Changes and cancellations are free of charge up to 48 hours before the transfer.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <h2>24/7 customer service</h2>
+                                <p>Our office is staffed 24 hours a day, 365 days a year - we're always here to help you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pricing page call to action area end -->
+        <!-- teastimonal area start -->
+        <section class="testimonial-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-inner">
+                            <!-- section title inner -->
+                            <h2 class="title">Testimonials</h2>
+                            <span class="subtitle">4.5/5 Customer Satisfaction with over 14,235</span>
+                        </div>
+                        <!-- //.section title inner-->
+                        <div class="testimonial-wrapper" id="testimonial-carousel">
+                            <!-- tesimonial wrapper -->
+                            <div class="single-testimonial-item">
+                                <!-- single testimonial item -->
+                                <div class="descripton">
+                                    <ul class="ratigs">
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                        opposed to using 'Content here.
+                                    </p>
+                                </div>
+                                <div class="clients-details">
+                                    <div class="thumb">
+                                        <img src="assets/img/testimonial/01.png" alt="tesimonial image">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title">William Hannah</h4>
+                                        <span class="post">Founder </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //.single testimonial item -->
+                            <div class="single-testimonial-item">
+                                <!-- single testimonial item -->
+                                <div class="descripton">
+                                    <ul class="ratigs">
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                            <i class="fas fa-star"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                        opposed to using 'Content here.
+                                    </p>
+                                </div>
+                                <div class="clients-details">
+                                    <div class="thumb">
+                                        <img src="assets/img/testimonial/01.png" alt="tesimonial image">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title">Hannah William</h4>
+                                        <span class="post">CEO </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //.single testimonial item -->
+                        </div>
+                        <!-- //.tesimonial wrapper -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="card-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="assets/img/visa.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/thawte.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/trustwave.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/travel.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/paypal.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/mastercard.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-footer">
+            <div class="sub-footer">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="title">Popular airports worldwide</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="">
+                                <a class="" href="#" title="Alicante airport">Alicante airport</a>
+                                <a class="" href="#" title="Amsterdam airport">Amsterdam airport</a>
+                                <a class="" href="#" title="Antalya airport">Antalya airport</a>
+                                <a class="" href="#" title="Bali Denpasar International airport">Bali Denpasar International airport</a>
+                                <a class="" href="#" title="Barcelona airport">Barcelona airport</a>
+                                <a class="" href="#" title="Budapest airport">Budapest airport</a>
+                                <a class="" href="#" title="Dalaman airport">Dalaman airport</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="">
+                                <a class="" href="#" title="Dubai International airport">Dubai International airport</a>
+                                <a class="" href="#" title="Dublin airport">Dublin airport</a>
+                                <a class="" href="#" title="Faro airport">Faro airport</a>
+                                <a class="" href="#" title="Fuerteventura airport">Fuerteventura airport</a>
+                                <a class="" href="#" title="Girona airport">Girona airport</a>
+                                <a class="" href="#" title="Gran Canaria airport">Gran Canaria airport</a>
+                                <a class="" href="#" title="Lanzarote airport">Lanzarote airport</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="">
+                                <a class="" href="#" title="Lisbon airport">Lisbon airport</a>
+                                <a class="" href="#" title="Madrid airport">Madrid airport</a>
+                                <a class="" href="#" title="Malaga airport">Malaga airport</a>
+                                <a class="" href="#" title="Mallorca airport">Mallorca airport</a>
+                                <a class="" href="#" title="Malta airport">Malta airport</a>
+                                <a class="" href="#" title="Murcia airport">Murcia airport</a>
+                                <a class="" href="#" title="Nice airport">Nice airport</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="">
+                                <a class="" href="#" title="Paphos airport">Paphos airport</a>
+                                <a class="" href="#" title="Paris Charles de Gaulle airport">Paris Charles de Gaulle airport</a>
+                                <a class="" href="#" title="Prague airport">Prague airport</a>
+                                <a class="" href="#" title="Reus airport">Reus airport</a>
+                                <a class="" href="#" title="Rhodes airport">Rhodes airport</a>
+                                <a class="" href="#" title="Rome Fiumicino airport">Rome Fiumicino airport</a>
+                                <a class="" href="#" title="Tenerife South airport">Tenerife South airport</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="display: none;">
+          <div id="hr-min-template">
+            <div>
+              <div class="c-field__dropdown">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="boxer">
+                        <div class="o-select-wrapper">
+                            <div class="o-select-wrapper__container">
+                                <div class="c-select">
+                                    <select id="qa-select--outward-hours-id" data-ref="arrive-hr" data-toggle="hr" data-id="OUTWARD_TIME" class="time-change-hr c-select__item qa-select--outward-hours">
+                                        <option value=""> Hr</option>
+                                        <option value="00">00</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                    </select>
+                                    <i class="c-select__caret">
+                                        <svg class="i-chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10">
+                                            <path class="i-chevron-down__content" d="M15.64.56C15.47.3 15.2.2 14.84.2c-.62 0-1.25.54-1.5.82L8 6.64 2.76 1.02c-.18-.28-.63-.9-1.25-1-.45-.1-.8.1-.97.3C0 .73-.27 1.57.36 2.56l6.56 6.97c.4.25.73.46.98.46.38 0 .73-.2 1-.46L15.12 3c.62-.7 1.32-1.63.52-2.44z"></path>
+                                        </svg>
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="o-select-wrapper__container">
+                                <div class="c-select">
+                                    <select id="qa-select--outward-minutes-id" data-ref="arrive-min" data-toggle="min" data-id="OUTWARD_TIME" class="time-change-min c-select__item qa-select--outward-minutes">
+                                        <option value=""> Min</option>
+                                        <option value="00">00</option>
+                                        <option value="05">05</option>
+                                        <option value="10">10</option>
+                                        <option value="15">15</option>
+                                        <option value="20">20</option>
+                                        <option value="25">25</option>
+                                        <option value="30">30</option>
+                                        <option value="35">35</option>
+                                        <option value="40">40</option>
+                                        <option value="45">45</option>
+                                        <option value="50">50</option>
+                                        <option value="55">55</option>
+                                    </select>
+                                    <i class="c-select__caret">
+                                        <svg class="i-chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10">
+                                            <path class="i-chevron-down__content" d="M15.64.56C15.47.3 15.2.2 14.84.2c-.62 0-1.25.54-1.5.82L8 6.64 2.76 1.02c-.18-.28-.63-.9-1.25-1-.45-.1-.8.1-.97.3C0 .73-.27 1.57.36 2.56l6.56 6.97c.4.25.73.46.98.46.38 0 .73-.2 1-.46L15.12 3c.62-.7 1.32-1.63.52-2.44z"></path>
+                                        </svg>
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-<!-- footer area start -->
-<footer class="footer-area">
- <div class="container">
-  <div class="row">
-   <div class="col-lg-12">
-    <div class="copyright-area"> Copyright By - Company Name - 2018 </div>
-   </div>
-   <!-- //.col-lg-12 --> 
-  </div>
-  <!-- //.row --> 
- </div>
- <!-- //.container --> 
-</footer>
-<!-- footer area end -->
-
-<div class="back-to-top"> 
- <!-- back to top start --> 
- <i class="fas fa-rocket"></i> </div>
-<!-- back to top end --> 
-
-<!-- jquery --> 
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/moment.js"></script>
-<!-- popper --> 
-<script src="assets/js/popper.min.js"></script> 
-<!-- bootstrap --> 
-<script src="assets/js/bootstrap.min.js"></script> 
-<!-- owl carousel --> 
-<script src="assets/js/owl.carousel.min.js"></script> 
-<!-- magnific popup --> 
-<script src="assets/js/jquery.magnific-popup.js"></script> 
-<!-- way poin js--> 
-<script src="assets/js/waypoints.min.js"></script> 
-<!-- imageloaded js--> 
-<script src="assets/js/imagesloaded.pkgd.min.js"></script> 
-<!-- isotope js--> 
-<script src="assets/js/isotope.pkgd.min.js"></script> 
-<!-- wow js--> 
-<script src="assets/js/wow.min.js"></script> 
-<!-- bootstrap datetimepicker --> 
-<!-- <script src="assets/js/bootstrap-datepicker.min.js"></script>  -->
-<!-- counterup js--> 
-<script src="assets/js/jquery.counterup.min.js"></script> 
-<!-- main --> 
-<script src="assets/js/jquery.plugin.min.js"></script>
-<!-- <script src="assets/js/jquery.datepick.js"></script> -->
-<script src="assets/js/pikaday.js"></script>
-<script src="assets/js/pikaday.jquery.js"></script>
-<script src="assets/js/main.js"></script>
-<script>
- 
-</script>
-</body>
+          </div>
+        </div>
+        <!-- footer area start -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-area"> Copyright By - Company Name - 2018 </div>
+                    </div>
+                    <!-- //.col-lg-12 --> 
+                </div>
+                <!-- //.row --> 
+            </div>
+            <!-- //.container --> 
+        </footer>
+        <!-- footer area end -->
+        <div class="back-to-top">
+            <!-- back to top start --> 
+            <i class="fas fa-rocket"></i> 
+        </div>
+        <!-- back to top end --> 
+        <!-- jquery --> 
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/moment.js"></script>
+        <!-- popper --> 
+        <script src="assets/js/popper.min.js"></script> 
+        <!-- bootstrap --> 
+        <script src="assets/js/bootstrap.min.js"></script> 
+        <!-- owl carousel --> 
+        <script src="assets/js/owl.carousel.min.js"></script> 
+        <!-- magnific popup --> 
+        <script src="assets/js/jquery.magnific-popup.js"></script> 
+        <!-- way poin js--> 
+        <script src="assets/js/waypoints.min.js"></script> 
+        <!-- imageloaded js--> 
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script> 
+        <!-- isotope js--> 
+        <script src="assets/js/isotope.pkgd.min.js"></script> 
+        <!-- wow js--> 
+        <script src="assets/js/wow.min.js"></script> 
+        <!-- bootstrap datetimepicker --> 
+        <!-- <script src="assets/js/bootstrap-datepicker.min.js"></script>  -->
+        <!-- counterup js--> 
+        <script src="assets/js/jquery.counterup.min.js"></script> 
+        <!-- main --> 
+        <script src="assets/js/jquery.plugin.min.js"></script>
+        <!-- <script src="assets/js/jquery.datepick.js"></script> -->
+        <script src="assets/js/pikaday.js"></script>
+        <script src="assets/js/pikaday.jquery.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script></script>
+    </body>
 </html>

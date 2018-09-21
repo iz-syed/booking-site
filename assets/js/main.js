@@ -96,32 +96,32 @@
             }, 2000);
         });
 
-        jQuery(".time-change-hr").change(function(){
-            var id = jQuery(this).attr("data-id");
-            var val = jQuery(this).val();
-            var ref = jQuery(this).attr("data-ref").split("-");
-            var min = jQuery('[data-ref='+ref[0]+'-min]').val();
-            min = min?min:"Min";
-            jQuery("#"+id).val(val+":"+min);
-            if( (min != '' && min !='Min' ) && val != '')
-            {
-                jQuery(this).parents().eq(6).hide();
-                jQuery(".c-field__container").removeClass("is-active");
-            }
-        });
-        jQuery(".time-change-min").change(function(){
-            var id = jQuery(this).attr("data-id");
-            var val = jQuery(this).val();
-            var ref = jQuery(this).attr("data-ref").split("-");
-            var hr = jQuery('[data-ref='+ref[0]+'-hr]').val();
-            hr = hr?hr:"Hr";
-            jQuery("#"+id).val(hr+":"+val);
-            if( (hr != '' && hr!='Hr') && val != '')
-            {
-                jQuery(this).parents().eq(6).hide();
-                jQuery(".c-field__container").removeClass("is-active");
-            }
-        });
+        // jQuery(".time-change-hr").change(function(){
+        //     var id = jQuery(this).attr("data-id");
+        //     var val = jQuery(this).val();
+        //     var ref = jQuery(this).attr("data-ref").split("-");
+        //     var min = jQuery('[data-ref='+ref[0]+'-min]').val();
+        //     min = min?min:"Min";
+        //     jQuery("#"+id).val(val+":"+min);
+        //     if( (min != '' && min !='Min' ) && val != '')
+        //     {
+        //         jQuery(this).parents().eq(6).hide();
+        //         jQuery(".c-field__container").removeClass("is-active");
+        //     }
+        // });
+        // jQuery(".time-change-min").change(function(){
+        //     var id = jQuery(this).attr("data-id");
+        //     var val = jQuery(this).val();
+        //     var ref = jQuery(this).attr("data-ref").split("-");
+        //     var hr = jQuery('[data-ref='+ref[0]+'-hr]').val();
+        //     hr = hr?hr:"Hr";
+        //     jQuery("#"+id).val(hr+":"+val);
+        //     if( (hr != '' && hr!='Hr') && val != '')
+        //     {
+        //         jQuery(this).parents().eq(6).hide();
+        //         jQuery(".c-field__container").removeClass("is-active");
+        //     }
+        // });
 
 
         jQuery(".oneway-radio").click(function(){
@@ -414,3 +414,80 @@
 
 
 }(jQuery));	
+
+
+var Element = (function ( $ )
+{
+    function Element ( selector, data )
+    {
+        this.selector = selector || '<div><div></div></div>';
+
+        this.template = $( selector );
+
+        // this.element = $( selector ).clone();
+        this.element = $( this.template.html() );
+
+        this.element.data = data || {};
+
+        this.element.removeAttr('id');
+    }
+
+    Element.prototype.render = function () { return this.element; };
+
+    return Element;
+
+})( jQuery );
+
+(function ($) {
+    jQuery(document).ready(function($) {
+
+        jQuery('.drop-text').on('click',function(){
+
+            var $parent = jQuery(this).parent().parent();
+            if (!$parent.find('.t-click-outside').length) {
+                var template = new Element('#hr-min-template'),
+                    $elm = template.element;
+                $elm.addClass('t-click-outside');
+
+
+                $elm.find(".time-change-hr").change(function(){
+                    
+                    var val = jQuery(this).val();
+                    var min = $elm.find(".time-change-min").val();
+                    min = min?min:"Min";
+                    $parent.find('.drop-text').val(val+":"+min);
+                    if( (min != '' && min !='Min' ) && val != '')
+                    {
+                        jQuery(this).parents().eq(6).hide();
+                        jQuery(".c-field__container").removeClass("is-active");
+                    }
+                });
+                $elm.find(".time-change-min").change(function(){
+                    var val = jQuery(this).val();
+                    var hr  = $elm.find(".time-change-hr").val();
+                    hr = hr?hr:"Hr";
+                    $parent.find('.drop-text').val(hr+":"+val);
+                    if( (hr != '' && hr!='Hr') && val != '')
+                    {
+                        jQuery(this).parents().eq(6).hide();
+                        jQuery(".c-field__container").removeClass("is-active");
+                    }
+                });
+
+                $parent.append($elm);
+            }            
+
+            console.log($elm);
+            var $dd = $parent.find(".t-click-outside .c-field__dropdown");
+            $dd.attr('style', '');
+
+            if ($dd.hasClass('is-active')) {
+                $dd.removeClass('is-active');
+            } else {
+                $dd.addClass('is-active');
+            }           
+        });
+
+        
+    });    
+}(jQuery));

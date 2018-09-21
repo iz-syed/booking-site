@@ -4919,7 +4919,9 @@ p {
 .c-field__dropdown {
   position: relative;
   left: 0;
-  display: none; }
+  display: none;
+  z-index: 9; 
+}
 
 /* line 1060, ../scss/_form-element.scss */
 .c-field__dropdown.is-active {
