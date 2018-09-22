@@ -535,6 +535,42 @@ var Element = (function ( $ )
                     $elm = template.element;
                 $elm.addClass('t-click-outside');
 
+                $elm.find('.c-addon-group__button').on('click', function(){
+                    var input = 0;
+                    if ($(this).parents('.c-addon-group').length) {
+                        var $input = $(this).parents('.c-addon-group').find('.c-addon-group__input');
+                        input = $input.val();
+                        input = parseInt(input);
+
+                        if ($(this).attr('data-action') === 'plus') {
+                            input += 1;
+                        } else {
+                            if (input) {
+                                input -= 1;
+                            } 
+                        }
+
+                        $input.val(input);
+
+                        $elm.trigger('calculate_passengers');
+                    }
+
+                });
+
+                $elm.find('.c-addon-group__button').on('keyup', function() {
+                    $elm.trigger('calculate_passengers');
+                });
+                
+                $elm.on('calculate_passengers', function() {
+
+                    let adult = $elm.find('#passenger-adult').val(),
+                        child = $elm.find('#passenger-child').val(),
+                        infant = $elm.find('#passenger-infant').val();
+
+                    let text = adult + ' Adults, ' + (parseInt(child) + parseInt(infant)) + ' Children';
+                    console.log('text', text);
+                    jQuery('.passengers').val(text);
+                });
 
                 $parent.append($elm);
             }            
