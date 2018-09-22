@@ -121,112 +121,127 @@
                 <!-- navbar collapse end --> 
             </div>
         </nav>
-        <!-- navbar area end --> 
+        <!-- navbar area end -->
+
+            <!-- header area start  -->
+            <header class="header-area">
+                <div id="header-slider" class="header-slider">
+                    <div class="single-header-item slider-bg-1">
+                    </div>
+                    <div class="single-header-item slider-bg-2">
+                    </div>
+                    <!-- ./container -->
+                </div>
+            </header>
+            <!-- header area end  --> 
+
         <!-- New Form Start -->
-        <div class="container test">
-            <form action="#">
-                <div class="row">
-                    <div class="col-md-12">         
-                        <span class="custom-control custom-radio">
-                        <input type="radio" class="custom-control-input" id="FromAirport" name="defaultExampleRadios">
-                        <label class="custom-control-label" for="FromAirport">From the airport</label>
-                        </span>
-                        <span class="custom-control custom-radio">
-                        <input type="radio" class="custom-control-input" id="ToAirport" name="defaultExampleRadios">
-                        <label class="custom-control-label" for="ToAirport">From the airport</label>
-                        </span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 ">
-                        <div class="input-group mb-3 fitter" data-value="Which airport are you arriving at?">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="">
-                                <img src="assets/img/svg/arrival.svg" width="24" height="24" alt="">
-                                </span>
-                            </div>
-                            <input type="text" class="airport-arrival form-control" placeholder="Placeholder">
-                        </div>
-                    </div>
-                    <div class="col-md-6 ">
-                        <div class="input-group mb-3 fitter" data-value="Where do you want to go?">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="">
-                                <img src="assets/img/svg/location.svg" width="24" height="24" alt="">
-                                </span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Placeholder">
-                        </div>                        
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-sm-8">
-                                <div class="input-group mb-3 fitter" data-value="When does your flight arrive?">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="">
-                                        <img src="assets/img/svg/arrive-date.svg" width="24" height="24" alt="">
-                                        </span>
-                                    </div>
-                                    <input type="text" class="datepicker form-control" placeholder="Placeholder">
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                              <div class="input-group mb-3 fitter" data-value="Time">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="">
-                                    <img src="assets/img/svg/clock-circular-outline.svg" width="24" height="24" alt="">
-                                    </span>
-                                </div>
-                                <input type="text" class="drop-text form-control" id="OUTWARD_TIME" placeholder="Placeholder">
-                              </div>                              
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-sm-8">
-                                <div class="input-group mb-3 fitter" data-value="When does your flight depart?">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="">
-                                        <img src="assets/img/svg/depart-date.svg" width="24" height="24" alt="">
-                                        </span>
-                                    </div>
-                                    <input type="text" class="datepicker form-control" placeholder="Placeholder">
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
+        <div id="sfreact-reactRenderer">
+          <div class="container">
+              <form action="#">
+                  <div class="row">
+                      <div class="col-md-12">         
+                          <span class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="FromAirport" name="defaultExampleRadios">
+                          <label class="custom-control-label" for="FromAirport">From the airport</label>
+                          </span>
+                          <span class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="ToAirport" name="defaultExampleRadios">
+                          <label class="custom-control-label" for="ToAirport">From the airport</label>
+                          </span>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6 ">
+                          <div class="input-group mb-3 fitter" data-value="Which airport are you arriving at?">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text" id="">
+                                  <img src="assets/img/svg/arrival.svg" width="24" height="24" alt="">
+                                  </span>
+                              </div>
+                              <input type="text" class="airport-arrival form-control" placeholder="Placeholder">
+                          </div>
+                      </div>
+                      <div class="col-md-6 ">
+                          <div class="input-group mb-3 fitter" data-value="Where do you want to go?">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text" id="">
+                                  <img src="assets/img/svg/location.svg" width="24" height="24" alt="">
+                                  </span>
+                              </div>
+                              <input type="text" class="form-control" placeholder="Placeholder">
+                          </div>                        
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="row">
+                              <div class="col-sm-8">
+                                  <div class="input-group mb-3 fitter" data-value="When does your flight arrive?">
+                                      <div class="input-group-prepend">
+                                          <span class="input-group-text" id="">
+                                          <img src="assets/img/svg/arrive-date.svg" width="24" height="24" alt="">
+                                          </span>
+                                      </div>
+                                      <input type="text" class="datepicker form-control" placeholder="Placeholder">
+                                  </div>
+                              </div>
+                              <div class="col-sm-4">
                                 <div class="input-group mb-3 fitter" data-value="Time">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="">
-                                        <img src="assets/img/svg/clock-circular-outline.svg" width="24" height="24" alt="">
-                                        </span>
-                                    </div>
-                                    <input type="text" class="drop-text form-control" placeholder="Placeholder">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="input-group mb-3 fitter" data-value="Passengers">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="">
-                                <img src="assets/img/svg/passinger.svg" width="24" height="24" alt="">
-                                </span>
-                            </div>
-                            <input type="text" class="passengers form-control" placeholder="Placeholder">
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <button type="submit" class="btn btn-rounded btn-lg btn-block btn-success">Success</button>
-                    </div>
-                </div>
-            </form>
+                                  <div class="input-group-prepend">
+                                      <span class="input-group-text" id="">
+                                      <img src="assets/img/svg/clock-circular-outline.svg" width="24" height="24" alt="">
+                                      </span>
+                                  </div>
+                                  <input type="text" class="drop-text form-control" id="OUTWARD_TIME" placeholder="Placeholder">
+                                </div>                              
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="row">
+                              <div class="col-sm-8">
+                                  <div class="input-group mb-3 fitter" data-value="When does your flight depart?">
+                                      <div class="input-group-prepend">
+                                          <span class="input-group-text" id="">
+                                          <img src="assets/img/svg/depart-date.svg" width="24" height="24" alt="">
+                                          </span>
+                                      </div>
+                                      <input type="text" class="datepicker form-control" placeholder="Placeholder">
+                                  </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="input-group mb-3 fitter" data-value="Time">
+                                      <div class="input-group-prepend">
+                                          <span class="input-group-text" id="">
+                                          <img src="assets/img/svg/clock-circular-outline.svg" width="24" height="24" alt="">
+                                          </span>
+                                      </div>
+                                      <input type="text" class="drop-text form-control" placeholder="Placeholder">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <div class="input-group mb-3 fitter" data-value="Passengers">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text" id="">
+                                  <img src="assets/img/svg/passinger.svg" width="24" height="24" alt="">
+                                  </span>
+                              </div>
+                              <input type="text" class="passengers form-control" placeholder="Placeholder">
+                          </div>
+                      </div>
+                      <div class="col-sm-6">
+                          <button type="submit" class="btn btn-rounded btn-lg btn-block btn-danger"><b>Search</b></button>
+                      </div>
+                  </div>
+              </form>
+          </div>
         </div>
-        <br /><br /><br /><br />
+        <!-- <br /><br /><br /><br /> -->
         
         <!-- New Form End -->
         <!-- about area start  -->
@@ -829,8 +844,12 @@
                       <div class="o-input-list">
                           <!-- Adult -->
                           <div class="o-input-list__container">
-                              <div class="o-input-list__item"><span class="o-input-list__title">Adults</span><span class="o-input-list__description">12+ years</span></div>
-                              <div class="o-input-list__item">
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <div class="o-input-list__item"><span class="o-input-list__title">Adults</span><span class="o-input-list__description">12+ years</span></div>
+                              </div>
+                              <div class="col-sm-6 text-right">
+                                <div class="o-input-list__item">
                                   <div class="c-addon-group">
                                       <a class="c-addon-group__button" data-id="" href="#">
                                       <img src="assets/img/svg/minus.svg" alt="">
@@ -841,11 +860,19 @@
                                       </a>
                                   </div>
                               </div>
+                              </div>
+                            </div>
+                              
+                              
                           </div>
                           <!-- Children -->
                           <div class="o-input-list__container">
-                              <div class="o-input-list__item"><span class="o-input-list__title">Children</span><span class="o-input-list__description">2-12 years</span></div>
-                              <div class="o-input-list__item">
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <div class="o-input-list__item"><span class="o-input-list__title">Children</span><span class="o-input-list__description">2-12 years</span></div>
+                              </div>
+                              <div class="col-sm-6 text-right">
+                                <div class="o-input-list__item">
                                   <div class="c-addon-group">
                                       <a class="c-addon-group__button" data-id="" href="#">
                                       <img src="assets/img/svg/minus.svg" alt="">
@@ -856,11 +883,17 @@
                                       </a>
                                   </div>
                               </div>
+                              </div>
+                            </div>
                           </div>
                           <!-- Infants -->
                           <div class="o-input-list__container">
-                              <div class="o-input-list__item"><span class="o-input-list__title">Infants</span><span class="o-input-list__description">Under 2 years</span></div>
-                              <div class="o-input-list__item">
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <div class="o-input-list__item"><span class="o-input-list__title">Infants</span><span class="o-input-list__description">Under 2 years</span></div>
+                              </div>
+                              <div class="col-sm-6 text-right">
+                                <div class="o-input-list__item">
                                   <div class="c-addon-group">
                                       <a class="c-addon-group__button" data-id="" href="#">
                                       <img src="assets/img/svg/minus.svg" alt="">
@@ -871,6 +904,10 @@
                                       </a>
                                   </div>
                               </div>
+                              </div>
+                            </div>
+                              
+                              
                           </div>
                       </div>
                     </div>

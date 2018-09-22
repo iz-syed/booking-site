@@ -1565,10 +1565,15 @@ ul {
     background-image: url(../img/bg/header-bg.jpg);
     background-size: cover;
     background-position: center; }
-/* line 31, ../scss/sections/_header.scss */
+  /* line 28, ../scss/sections/_header.scss */
+  .header-area .header-slider .single-header-item.slider-bg-2 {
+    background-image: url(../img/bg/header-bg-1.jpg);
+    background-size: cover;
+    background-position: center; }
+/* line 36, ../scss/sections/_header.scss */
 .header-area:hover .header-slider .owl-nav div {
   opacity: 1; }
-/* line 35, ../scss/sections/_header.scss */
+/* line 40, ../scss/sections/_header.scss */
 .header-area .header-slider .owl-nav div {
   position: absolute;
   left: -30px;
@@ -1590,38 +1595,38 @@ ul {
   -moz-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   opacity: 0; }
-/* line 51, ../scss/sections/_header.scss */
+/* line 56, ../scss/sections/_header.scss */
 .header-area .header-slider .owl-nav div.owl-next {
   left: auto;
   right: -30px;
   padding-left: 15px; }
-/* line 57, ../scss/sections/_header.scss */
+/* line 62, ../scss/sections/_header.scss */
 .header-area .single-header-item .subtitle {
   font-size: 30px;
   line-height: 38px;
   color: #eaeaea;
   margin-bottom: 15px;
   display: inline-block; }
-/* line 64, ../scss/sections/_header.scss */
+/* line 69, ../scss/sections/_header.scss */
 .header-area .single-header-item h1 {
   color: #fff;
   font-size: 80px;
   line-height: 90px;
   font-weight: 800;
   margin-bottom: 45px; }
-/* line 72, ../scss/sections/_header.scss */
+/* line 77, ../scss/sections/_header.scss */
 .header-area .single-header-item .btn-wrapper .boxed-btn {
   margin: 0 10px;
   border: 2px solid transparent; }
-  /* line 75, ../scss/sections/_header.scss */
+  /* line 80, ../scss/sections/_header.scss */
   .header-area .single-header-item .btn-wrapper .boxed-btn:hover {
     background-color: transparent;
     border: 2px solid #fff; }
-  /* line 79, ../scss/sections/_header.scss */
+  /* line 84, ../scss/sections/_header.scss */
   .header-area .single-header-item .btn-wrapper .boxed-btn.blank {
     color: #fff;
     border-color: #fff; }
-    /* line 82, ../scss/sections/_header.scss */
+    /* line 87, ../scss/sections/_header.scss */
     .header-area .single-header-item .btn-wrapper .boxed-btn.blank:hover {
       border-color: #d02027;
       background-color: #d02027; }
@@ -6107,6 +6112,17 @@ label {
 /* line 2221, ../scss/_form-element.scss */
 .inspect p {
   color: #fff; }
+
+/* line 2226, ../scss/_form-element.scss */
+#sfreact-reactRenderer {
+  position: relative;
+  top: -100px;
+  z-index: 1; }
+  /* line 2231, ../scss/_form-element.scss */
+  #sfreact-reactRenderer .container {
+    background: linear-gradient(165deg, #15d8f8 20%, #09afee 60%);
+    border-radius: 5px;
+    box-shadow: 0 37.125px 70px -12.125px rgba(0, 0, 0, 0.3); }
 
 /* line 39, ../scss/style.scss */
 .test {

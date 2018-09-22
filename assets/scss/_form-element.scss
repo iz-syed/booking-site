@@ -2222,3 +2222,16 @@ hr {
     color:#fff;
   }
 }
+
+#sfreact-reactRenderer {
+  position: relative;
+  top: -100px;
+  z-index: 1; 
+
+  .container {
+    background:linear-gradient(165deg,#15d8f8 20%,#09afee 60%);
+    border-radius:5px;
+    box-shadow: 0 37.125px 70px -12.125px rgba(0,0,0,0.3);
+  }
+
+}
