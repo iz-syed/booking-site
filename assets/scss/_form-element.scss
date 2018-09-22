@@ -1055,6 +1055,7 @@ p {
 .c-field__dropdown {
   position: relative;
   left: 0;
+  z-index: 9; 
   display: none; }
 
 .c-field__dropdown.is-active {
