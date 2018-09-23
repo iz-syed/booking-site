@@ -5262,7 +5262,7 @@ input[type=checkbox]:checked + .c-checkbox__icon .i-checkbox {
   width: 100%;
   border-radius: 0;
   border: 1px solid #ede9e5;
-  padding: 8.96px 14px;
+  padding: 8.96px 8px;
   font-weight: 500;
   color: #45423c;
   background-color: #fff; }
