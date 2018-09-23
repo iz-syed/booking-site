@@ -1516,28 +1516,28 @@ ul {
               color: #fff; }
       /* line 73, ../scss/sections/_navbar.scss */
       .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
-        color: #d02027; }
-      /* line 77, ../scss/sections/_navbar.scss */
+        text-shadow: 0 0 25px #333; }
+      /* line 78, ../scss/sections/_navbar.scss */
       .navbar-area .navbar-collapse .navbar-nav .nav-item:last-child {
         padding-right: 0; }
-      /* line 80, ../scss/sections/_navbar.scss */
+      /* line 81, ../scss/sections/_navbar.scss */
       .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link {
         color: #fff;
         -webkit-transition: all 0.3s ease-in;
         -moz-transition: all 0.3s ease-in;
         transition: all 0.3s ease-in; }
-        /* line 83, ../scss/sections/_navbar.scss */
+        /* line 84, ../scss/sections/_navbar.scss */
         .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
           padding-left: 0; }
-  /* line 90, ../scss/sections/_navbar.scss */
+  /* line 91, ../scss/sections/_navbar.scss */
   .navbar-area .navbar-btn-wrapper {
     justify-content: flex-end; }
-    /* line 92, ../scss/sections/_navbar.scss */
+    /* line 93, ../scss/sections/_navbar.scss */
     .navbar-area .navbar-btn-wrapper .boxed-btn {
       width: 200px;
       height: 50px;
       line-height: 50px; }
-      /* line 96, ../scss/sections/_navbar.scss */
+      /* line 97, ../scss/sections/_navbar.scss */
       .navbar-area .navbar-btn-wrapper .boxed-btn:hover {
         background-color: rgba(255, 106, 76, 0.9); }
 

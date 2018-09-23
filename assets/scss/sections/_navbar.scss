@@ -71,7 +71,8 @@
                 }
                 &:hover {
                     .nav-link {
-                        color: $base-color;
+                        // color: $base-color;
+                        text-shadow:0 0 25px #333
                     }
                 }
                 &:last-child {
