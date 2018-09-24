@@ -6238,3 +6238,42 @@ textarea.custom {
 .payment-wrap .--card b {
   line-height: 75px;
   font-size: 22px; }
+
+/* line 172, ../scss/style.scss */
+.journey-summary .drop-off-text,
+.journey-summary .pick-up-text {
+  font-weight: 700;
+  margin: 0 0 5px;
+  text-align: center; }
+
+/* line 179, ../scss/style.scss */
+.diversion-box {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 2px;
+  padding: 15px; }
+
+/* line 186, ../scss/style.scss */
+.submit-cancel {
+  background: #ed1c22;
+  color: #fff;
+  border: 1px solid transparent; }
+
+/* line 188, ../scss/style.scss */
+.submit-cancel:hover {
+  background: #fff;
+  color: #ed1c22;
+  border-color: #ed1c22; }
+
+/* line 190, ../scss/style.scss */
+.submit-button {
+  background: #34a853;
+  color: #fff;
+  border: 1px solid transparent; }
+
+/* line 192, ../scss/style.scss */
+.submit-button:hover {
+  background: #fff;
+  color: #34a853;
+  border-color: #34a853; }

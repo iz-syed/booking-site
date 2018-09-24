@@ -168,3 +168,26 @@
     	}
 
     }
+
+    .journey-summary .drop-off-text, 
+.journey-summary .pick-up-text {
+    font-weight: 700;
+    margin: 0 0 5px;
+    text-align: center;
+}
+
+.diversion-box {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border: none;
+    border-radius: 2px;
+    padding:15px;
+    }
+.submit-cancel {
+background:#ed1c22; color:#fff; border:1px solid transparent}
+.submit-cancel:hover {
+background:#fff; color:#ed1c22; border-color:#ed1c22}
+.submit-button {
+background:#34a853; color:#fff; border:1px solid transparent }
+.submit-button:hover {
+background:#fff; color:#34a853; border-color:#34a853}
