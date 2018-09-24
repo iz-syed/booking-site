@@ -1308,6 +1308,99 @@
   overflow: hidden;
   text-overflow: ellipsis; }
 
+/* line 1158, ../scss/main/_global.scss */
+.journey-summary .stats-diversions .diversions-container .diversions .btn {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  border-radius: 50%;
+  background: #151525;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all .2s; }
+
+/* line 1171, ../scss/main/_global.scss */
+.journey-summary .stats-diversions .diversions-container .diversions .btn:before {
+  content: "";
+  width: 1px;
+  height: 10px;
+  border-left: 2px solid #fff;
+  position: absolute;
+  top: 5px;
+  left: 9px; }
+
+/* line 1181, ../scss/main/_global.scss */
+.journey-summary .stats-diversions .diversions-container .diversions .btn:after {
+  content: "";
+  width: 10px;
+  height: 1px;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  top: 8px;
+  left: 5px; }
+
+/* line 1191, ../scss/main/_global.scss */
+.journey-summary .stats-diversions .diversions-container .diversion {
+  padding: 4px 7px;
+  margin: 0 15px;
+  position: relative;
+  border: 2px solid #ececee;
+  border-radius: 5px;
+  background: #fff; }
+
+/* line 1200, ../scss/main/_global.scss */
+.journey-summary .stats-diversions .diversions-container .diversion {
+  padding: 4px 7px;
+  margin: 0 15px;
+  position: relative;
+  border: 2px solid #ececee;
+  border-radius: 5px;
+  background: #fff; }
+
+/* line 1209, ../scss/main/_global.scss */
+.journey-summary .stats-diversions .diversions-container .diversions .diversion {
+  margin-bottom: 2px;
+  display: inline-block; }
+
+/* line 1214, ../scss/main/_global.scss */
+.journey-summary .stats-diversions .diversions-container .diversion a {
+  width: 13px;
+  height: 13px;
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  background: #ed1c22;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50%; }
+
+/* line 1227, ../scss/main/_global.scss */
+.journey-summary .stats-diversions .diversions-container .diversion a:after,
+.journey-summary .stats-diversions .diversions-container .diversion a:before {
+  content: "";
+  width: 0;
+  height: 8px;
+  border-left: 1px solid #fff;
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 1243, ../scss/main/_global.scss */
+.journey-summary .stats-diversions .diversions-container .diversion a:after {
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
 /*====================
 ** Normalize
 ====================*/
@@ -6252,28 +6345,42 @@ textarea.custom {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   border: none;
   border-radius: 2px;
-  padding: 15px; }
+  padding: 15px;
+  margin-top: 25px; }
 
-/* line 186, ../scss/style.scss */
+/* line 187, ../scss/style.scss */
 .submit-cancel {
   background: #ed1c22;
   color: #fff;
   border: 1px solid transparent; }
 
-/* line 188, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 .submit-cancel:hover {
   background: #fff;
   color: #ed1c22;
   border-color: #ed1c22; }
 
-/* line 190, ../scss/style.scss */
+/* line 191, ../scss/style.scss */
 .submit-button {
   background: #34a853;
   color: #fff;
   border: 1px solid transparent; }
 
-/* line 192, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 .submit-button:hover {
   background: #fff;
   color: #34a853;
   border-color: #34a853; }
+
+/* line 197, ../scss/style.scss */
+#sfreact-reactRenderer .btn-danger {
+  color: #805f09;
+  background-color: #ffcd48;
+  border-color: #d2ae50; }
+  /* line 202, ../scss/style.scss */
+  #sfreact-reactRenderer .btn-danger:hover {
+    background-color: #f9c333; }
+  /* line 206, ../scss/style.scss */
+  #sfreact-reactRenderer .btn-danger b {
+    padding: 5px 0;
+    display: inline-block; }

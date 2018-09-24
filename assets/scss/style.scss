@@ -182,6 +182,7 @@
     border: none;
     border-radius: 2px;
     padding:15px;
+    margin-top: 25px;
     }
 .submit-cancel {
 background:#ed1c22; color:#fff; border:1px solid transparent}
@@ -191,3 +192,19 @@ background:#fff; color:#ed1c22; border-color:#ed1c22}
 background:#34a853; color:#fff; border:1px solid transparent }
 .submit-button:hover {
 background:#fff; color:#34a853; border-color:#34a853}
+
+
+#sfreact-reactRenderer .btn-danger {
+	color: #805f09;
+    background-color: #ffcd48;
+    border-color: #d2ae50;
+
+    &:hover {
+    	background-color: #f9c333;
+    }
+
+    b {
+		padding: 5px 0;
+    	display: inline-block;
+    }
+}
