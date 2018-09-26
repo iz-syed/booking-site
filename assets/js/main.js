@@ -77,16 +77,19 @@
             type: 'video'
         });
 
-        jQuery(".datepicker").pikaday(
-            {
-                format:'DD/MM/YYYY',
-                onOpen: function(){
-                    jQuery(".c-field__dropdown").hide();
-                    jQuery(".c-field__container").removeClass("is-active");
-                    jQuery(".c-field__item").removeClass("is-active");
+        if (jQuery(".datepicker").length) {
+            jQuery(".datepicker").pikaday(
+                {
+                    format:'DD/MM/YYYY',
+                    onOpen: function(){
+                        jQuery(".c-field__dropdown").hide();
+                        jQuery(".c-field__container").removeClass("is-active");
+                        jQuery(".c-field__item").removeClass("is-active");
+                    }
                 }
-            }
-        );
+            );
+        }
+        
         /*----------------------------
 		back to top 
 		----------------------------*/
@@ -587,5 +590,30 @@ var Element = (function ( $ )
         });
 
         
+        $('.diversions .btn').on('click', function() {
+            $('.add-drop-form').toggleClass('hide');
+            var index = $(this).attr('data-position');
+            index = parseInt(index);
+
+        });
+
+        $('#submit-diversion').on('click', function() {
+            var name = $('#drop-name').val();
+            addDiversion(name, 0);
+        });
+
+        $('#cancel-diversion').on('click', function() {
+            $('.add-drop-form').addClass('hide');
+        });
     });    
 }(jQuery));
+
+var diversions = [];
+
+function addDiversion(drop, index) {
+    diversions.splice(index, 0, drop);
+}
+
+renderDiversion() {
+
+}
