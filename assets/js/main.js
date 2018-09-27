@@ -590,16 +590,15 @@ var Element = (function ( $ )
         });
 
         
-        $('.diversions .btn').on('click', function() {
-            $('.add-drop-form').toggleClass('hide');
-            var index = $(this).attr('data-position');
-            index = parseInt(index);
-
-        });
+        initDiversionActions();
 
         $('#submit-diversion').on('click', function() {
-            var name = $('#drop-name').val();
-            addDiversion(name, 0);
+            var name = $('#drop-name').val(),
+                index = $('#drop-when').val();
+            index = index ? index:0;
+
+            addDiversion(name, index);
+            $('#cancel-diversion').trigger('click');
         });
 
         $('#cancel-diversion').on('click', function() {
@@ -610,10 +609,55 @@ var Element = (function ( $ )
 
 var diversions = [];
 
-function addDiversion(drop, index) {
-    diversions.splice(index, 0, drop);
+function initDiversionActions() {
+    $('.diversions .btn').on('click', function() {
+        $('.add-drop-form').toggleClass('hide');
+        var index = $(this).attr('data-position');
+
+        if (diversions.length) {
+            $('#drop-when').parents('.form-group').removeClass('hide');
+        } else {
+            $('#drop-when').parents('.form-group').addClass('hide');
+        }
+
+        $('#drop-when').val(index);
+        $('#drop-name').val('');
+    });
+
+    renderDropWhen();
 }
 
-renderDiversion() {
+function addDiversion(drop, index) {
+    diversions.splice(index, 0, drop);
+    renderDiversion();
+    renderDropWhen();
+}
+
+function renderDiversion() {
+    $elm = $('.diversions');
+
+    $elm.html('');
+    $elm.html('<div class="btn" data-position="0"></div>');
+
+    for (var i = 0; i < diversions.length; i++) {
+        console.log('diversion', diversions[i]);
+        $elm.append('<div class="diversion">'+diversions[i]+'</div>');
+        $elm.append('<div class="btn" data-position="'+(i+1)+'"></div>');
+    }
+
+    initDiversionActions();
+    console.log('diversions', diversions);
+}
+
+function renderDropWhen() {
+    $elm = $('#drop-when');
+
+    $elm.html('');
+    for (var i = 0; i < diversions.length; i++) {
+        if(i===0) {
+            $elm.append('<option value="'+(i)+'">Before '+diversions[i]+'</option>');
+        }
+        $elm.append('<option value="'+(i+1)+'">After '+diversions[i]+'</option>');
+    }
 
 }
