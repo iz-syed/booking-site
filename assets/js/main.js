@@ -633,6 +633,12 @@ function addDiversion(drop, index) {
     renderDropWhen();
 }
 
+function removeDiversion(index) {
+    diversions.splice(index, 1);
+    renderDiversion();
+    renderDropWhen();
+}
+
 function renderDiversion() {
     $elm = $('.diversions');
 
@@ -641,7 +647,7 @@ function renderDiversion() {
 
     for (var i = 0; i < diversions.length; i++) {
         console.log('diversion', diversions[i]);
-        $elm.append('<div class="diversion">'+diversions[i]+'</div>');
+        $elm.append('<div class="diversion">'+diversions[i]+' <a href="javascript:removeDiversion('+i+');"></a></div>');
         $elm.append('<div class="btn" data-position="'+(i+1)+'"></div>');
     }
 
