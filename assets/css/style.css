@@ -6385,6 +6385,6 @@ textarea.custom {
     padding: 5px 0;
     display: inline-block; }
 
+/* line 212, ../scss/style.scss */
 .hide {
-  display: none;
-}
+  display: none; }
